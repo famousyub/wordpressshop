@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 26/09/2022 09:13:30
+Poste     : EZR-BBS27341
+Matricule : atel_rgw
+Code      : -1
+Message   : Impossible de lire les données de la connexion de transport : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 26/09/2022 10:13:13
+Poste     : EZR-BBS27341
+Matricule : atel_rgw
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+

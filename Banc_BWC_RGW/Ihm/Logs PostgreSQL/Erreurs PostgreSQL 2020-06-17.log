@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 17/06/2020 10:37:32
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 17/06/2020 11:14:35
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+

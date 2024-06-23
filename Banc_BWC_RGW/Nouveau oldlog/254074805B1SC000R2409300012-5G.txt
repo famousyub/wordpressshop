@@ -1,0 +1,314 @@
+step : 6.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT1 ANT2 ANT3 ANT4 
+nom  : 6.RX_VERIFY_5500_HE_SU mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+nom  : 6_RX_VERIFY_5500_HE_SU mesure : -70.00 unite : dBm val1 : -73 val2 : -67 desc : RSSI_RX1
+nom  : 6_RX_VERIFY_5500_HE_SU mesure : -71.00 unite : dBm val1 : -73 val2 : -67 desc : RSSI_RX2
+nom  : 6_RX_VERIFY_5500_HE_SU mesure : -72.00 unite : dBm val1 : -73 val2 : -67 desc : RSSI_RX3
+nom  : 6_RX_VERIFY_5500_HE_SU mesure : -70.00 unite : dBm val1 : -73 val2 : -67 desc : RSSI_RX4
+step : 8.TX_VERIFY EVM MASK POWER SPECTRUM 5500 OFDM-6 NON_HT BW-20 ANT1 
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : -19.92 unite : dB val1 : -5 desc : EVM_AVG_DB
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : -19.92 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : -5.93 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : -39.65 unite : dBc val1 : -15 desc : LO_LEAKAGE_DBC_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 23.90 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 8.32 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 8.16 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 16.69 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 16.58 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 8.88 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 9.68 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 12.57 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 14.90 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 16.52 unite : MHz val1 : 16 val2 : 18 desc : OBW_MHZ_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1  mesure : 19.27 unite : dBm val1 : 0, val2 : 1 desc : POWER_DBM_RMS_AVG_S1 
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1  mesure : 19.27 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 0.43 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 0.10 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : -0.59 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 8_TX_5500_OFDM-6_BW-20_ANT1 mesure : 0.09 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+step : 9.TX_VERIFY EVM MASK POWER SPECTRUM 5500 OFDM-6 NON_HT BW-20 ANT2 
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : -20.43 unite : dB val1 : -5 desc : EVM_AVG_DB
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : -20.43 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : -5.98 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : -40.36 unite : dBc val1 : -15 desc : LO_LEAKAGE_DBC_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 25.28 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 12.79 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 9.73 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 17.82 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 15.54 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 10.64 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 9.02 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 12.35 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 13.62 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 16.45 unite : MHz val1 : 16 val2 : 18 desc : OBW_MHZ_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2  mesure : 19.60 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2  mesure : 19.6 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : -0.43 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 0.13 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 0.45 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 9_TX_5500_OFDM-6_BW-20_ANT2 mesure : 0.40 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+step : 10.TX_VERIFY EVM MASK POWER SPECTRUM 5500 OFDM-6 NON_HT BW-20 ANT3 
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : -20.74 unite : dB val1 : -5 desc : EVM_AVG_DB
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : -20.74 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : -6.06 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : -39.94 unite : dBc val1 : -15 desc : LO_LEAKAGE_DBC_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 24.46 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 9.93 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 7.56 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 16.24 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 15.43 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 11.11 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 7.62 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 9.52 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 14.45 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 16.48 unite : MHz val1 : 16 val2 : 18 desc : OBW_MHZ_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3  mesure : 19.70 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3  mesure : 19.7 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 0.21 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 0.10 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : -0.35 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 10_TX_5500_OFDM-6_BW-20_ANT3 mesure : 0.19 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+step : 11.TX_VERIFY EVM MASK POWER SPECTRUM 5500 OFDM-6 NON_HT BW-20 ANT4 
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : -20.43 unite : dB val1 : -5 desc : EVM_AVG_DB
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : -20.43 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : -6.13 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : -40.09 unite : dBc val1 : -15 desc : LO_LEAKAGE_DBC_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 24.70 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 8.86 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 7.26 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 18.08 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 17.46 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 8.49 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 9.04 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 12.12 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 14.78 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 16.45 unite : MHz val1 : 16 val2 : 18 desc : OBW_MHZ_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4  mesure : 19.33 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4  mesure : 19.33 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 0.43 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 0.18 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : -0.55 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 11_TX_5500_OFDM-6_BW-20_ANT4 mesure : 0.34 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+step : 12.TX_VERIFY EVM MASK POWER SPECTRUM 5210 MCS11 HE_SU BW-80 ANT1 
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : -41.25 unite : dB val1 : -35 desc : EVM_DB_AVG_S1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : -6.18 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 22.65 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 15.78 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 15.18 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 19.03 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 23.17 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 13.20 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 12.89 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 10.95 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 12.78 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : -0.64 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : -2.73 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : 0.41 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1 mesure : -2.21 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 12_TX_5210_MCS11_BW-80_ANT1  mesure : 15.96 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 13.TX_VERIFY EVM MASK POWER SPECTRUM 5210 MCS11 HE_SU BW-80 ANT2 
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : -41.08 unite : dB val1 : -35 desc : EVM_DB_AVG_S1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : -6.26 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 21.67 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 16.27 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 14.68 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 19.16 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 20.83 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 13.07 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 12.49 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 9.75 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 12.32 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : -0.89 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : -3.00 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 0.54 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2 mesure : 0.31 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 13_TX_5210_MCS11_BW-80_ANT2  mesure : 16.03 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 14.TX_VERIFY EVM MASK POWER SPECTRUM 5210 MCS11 HE_SU BW-80 ANT3 
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : -40.29 unite : dB val1 : -35 desc : EVM_DB_AVG_S1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : -6.33 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 18.70 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 17.25 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 16.10 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 19.77 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 22.53 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 13.38 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 12.75 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 11.27 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 14.08 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : -0.83 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : -2.95 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 0.50 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3 mesure : 0.17 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 14_TX_5210_MCS11_BW-80_ANT3  mesure : 15.66 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 15.TX_VERIFY EVM MASK POWER SPECTRUM 5210 MCS11 HE_SU BW-80 ANT4 
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : -43.19 unite : dB val1 : -35 desc : EVM_DB_AVG_S1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : -6.39 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 19.19 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 17.32 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 16.63 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 21.62 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 22.36 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 13.83 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 13.13 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 11.13 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 13.10 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : -0.72 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : -2.91 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 0.42 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4 mesure : 0.12 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 15_TX_5210_MCS11_BW-80_ANT4  mesure : 16.08 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 16.TX_VERIFY EVM MASK POWER SPECTRUM 5570 MCS13 EHT_MU BW-160 ANT1 
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : -39.95 unite : dB val1 : -38 desc : EVM_DB_AVG_S1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : -6.44 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 15.01 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 16.41 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 15.21 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 10.19 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 12.38 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 14.34 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 14.86 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 8.91 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 9.63 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 17.59 unite : dBm val1 : 16 val2 : 19 desc : POWER_RMS_AVG_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 0.92 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : -0.12 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : 0.64 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1 mesure : -0.78 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 16_TX_5570_MCS13_BW-160_ANT1  mesure : 17.63 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 17.TX_VERIFY EVM MASK POWER SPECTRUM 5570 MCS13 EHT_MU BW-160 ANT2 
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : -38.62 unite : dB val1 : -38 desc : EVM_DB_AVG_S1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : -6.52 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 20.21 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 15.53 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 12.57 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 8.72 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 10.85 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 14.36 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 12.07 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 8.97 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 11.06 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 18.04 unite : dBm val1 : 16 val2 : 19 desc : POWER_RMS_AVG_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 1.11 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : 0.63 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : -0.90 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2 mesure : -1.23 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 17_TX_5570_MCS13_BW-160_ANT2  mesure : 18.06 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 18.TX_VERIFY EVM MASK POWER SPECTRUM 5570 MCS13 EHT_MU BW-160 ANT3 
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : -39.11 unite : dB val1 : -38 desc : EVM_DB_AVG_S1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : -6.60 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 19.93 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 16.57 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 14.12 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 8.16 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 10.04 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 14.13 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 13.79 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 10.67 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 10.55 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 17.60 unite : dBm val1 : 16 val2 : 19 desc : POWER_RMS_AVG_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 0.77 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : -0.72 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : 0.74 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3 mesure : -0.71 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 18_TX_5570_MCS13_BW-160_ANT3  mesure : 17.64 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 19.TX_VERIFY EVM MASK POWER SPECTRUM 5570 MCS13 EHT_MU BW-160 ANT4 
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : -40.78 unite : dB val1 : -38 desc : EVM_DB_AVG_S1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : -6.67 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 19.73 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 16.65 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 15.76 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 11.40 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 12.59 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 15.29 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 14.82 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 10.45 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 9.34 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 17.28 unite : dBm val1 : 16 val2 : 19 desc : POWER_RMS_AVG_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : 0.84 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : -0.36 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : -0.65 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4 mesure : -0.93 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 19_TX_5570_MCS13_BW-160_ANT4  mesure : 17.32 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 20.TX_VERIFY EVM MASK POWER SPECTRUM 5610 MCS0 EHT_MU BW-80 ANT1 
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : -20.11 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : -6.74 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 10.87 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 5.78 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 4.96 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 6.25 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 9.28 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 4.81 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 4.09 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 4.67 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 8.73 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : 0.74 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : -0.56 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : -1.01 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1 mesure : -2.40 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 20_TX_5610_MCS0_BW-80_ANT1  mesure : 20.01 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 21.TX_VERIFY EVM MASK POWER SPECTRUM 5610 MCS0 EHT_MU BW-80 ANT2 
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : -19.92 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : -6.77 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 12.41 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 5.19 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 4.07 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 2.41 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 7.13 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 6.05 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 4.51 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 4.52 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 8.30 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 0.69 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 0.45 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : -0.22 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2 mesure : 0.25 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 21_TX_5610_MCS0_BW-80_ANT2  mesure : 20.21 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 22.TX_VERIFY EVM MASK POWER SPECTRUM 5610 MCS0 EHT_MU BW-80 ANT3 
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : -20.02 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : -6.80 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 10.83 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 6.21 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 4.99 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 4.27 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 9.46 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 6.64 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 5.40 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 5.47 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 9.37 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 0.82 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : 0.29 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : -1.05 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3 mesure : -2.63 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 22_TX_5610_MCS0_BW-80_ANT3  mesure : 19.80 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 23.TX_VERIFY EVM MASK POWER SPECTRUM 5610 MCS0 EHT_MU BW-80 ANT4 
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : -19.76 unite : dB val1 : -5 desc : EVM_DB_AVG_S1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : -6.83 unite : ppm val1 : -20 val2 : 20 desc : FREQ_ERROR_AVG
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 11.57 unite : dB val1 : 0 desc : LO_LEAKAGE_MARGIN_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 4.69 unite : dB val1 : 0 desc : MARGIN_DB_LO_A_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 4.08 unite : dB val1 : 0 desc : MARGIN_DB_LO_B_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 3.64 unite : dB val1 : 0 desc : MARGIN_DB_LO_C_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 9.31 unite : dB val1 : 0 desc : MARGIN_DB_LO_D_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 6.24 unite : dB val1 : 0 desc : MARGIN_DB_UP_A_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 5.22 unite : dB val1 : 0 desc : MARGIN_DB_UP_B_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 5.29 unite : dB val1 : 0 desc : MARGIN_DB_UP_C_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 9.44 unite : dB val1 : 0 desc : MARGIN_DB_UP_D_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 0.81 unite : dB val1 : -4 val2 : 4 desc : VALUE_LO_A_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : 0.45 unite : dB val1 : -6 val2 : 4 desc : VALUE_LO_B_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : -0.98 unite : dB val1 : -4 val2 : 4 desc : VALUE_UP_A_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4 mesure : -2.62 unite : dB val1 : -6 val2 : 4 desc : VALUE_UP_B_VSA1
+nom  : 23_TX_5610_MCS0_BW-80_ANT4  mesure : 19.47 unite : dBm val1 : 18.5, val2 : 21. desc : POWER_DBM_RMS_AVG_S1 
+step : 24.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT1 
+nom  : 24_RX_5500_MCS0_BW-20_ANT1 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+step : 25.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT2 
+nom  : 25_RX_5500_MCS0_BW-20_ANT2 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+step : 26.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT3 
+nom  : 26_RX_5500_MCS0_BW-20_ANT3 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+step : 27.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT4 
+nom  : 27_RX_5500_MCS0_BW-20_ANT4 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+step : 28.RX_VERIFY PER 5290 MCS7 EHT_MU BW-80 ANT1 
+nom  : 28_RX_5290_MCS7_BW-80_ANT1 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+step : 29.RX_VERIFY PER 5290 MCS7 EHT_MU BW-80 ANT2 
+nom  : 29_RX_5290_MCS7_BW-80_ANT2 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+step : 30.RX_VERIFY PER 5290 MCS7 EHT_MU BW-80 ANT3 
+nom  : 30_RX_5290_MCS7_BW-80_ANT3 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 
+step : 31.RX_VERIFY PER 5290 MCS7 EHT_MU BW-80 ANT4 
+nom  : 31_RX_5290_MCS7_BW-80_ANT4 mesure : 0.0 unite : % val1 : 0, val2 : 1 desc : PER 

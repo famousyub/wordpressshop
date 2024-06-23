@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 01/03/2024 10:46:45
+Poste     : EZR-BBS27341
+Matricule : EZR-Atel_BBS
+Code      : -1
+Message   : Impossible de lire les données de la connexion de transport : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 01/03/2024 11:25:17
+Poste     : EZR-BBS27341
+Matricule : EZR-Atel_BBS
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 01/03/2024 14:36:08
+Poste     : EZR-BBS27341
+Matricule : EZR-Atel_BBS
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 01/03/2024 14:56:12
+Poste     : EZR-BBS27341
+Matricule : EZR-Atel_BBS
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 01/03/2024 15:12:23
+Poste     : EZR-BBS27341
+Matricule : EZR-Atel_BBS
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+

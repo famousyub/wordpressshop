@@ -1,0 +1,5 @@
+step : 13.RX_VERIFY PER 6115 MCS0 HE_SU BW-20 ANT1 ANT2 ANT3 ANT4 
+nom  : 13_RX_VERIFY_6115_HE_SU mesure : -73.00 unite : dBm val1 : -75 val2 : -65 desc : RSSI_RX1
+nom  : 13_RX_VERIFY_6115_HE_SU mesure : -69.00 unite : dBm val1 : -75 val2 : -65 desc : RSSI_RX2
+nom  : 13_RX_VERIFY_6115_HE_SU mesure : -68.00 unite : dBm val1 : -75 val2 : -65 desc : RSSI_RX3
+nom  : 13_RX_VERIFY_6115_HE_SU mesure : -69.00 unite : dBm val1 : -75 val2 : -65 desc : RSSI_RX4

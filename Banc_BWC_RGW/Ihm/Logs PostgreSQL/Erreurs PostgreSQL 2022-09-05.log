@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/09/2022 09:18:48
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/09/2022 10:39:15
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/09/2022 11:37:25
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/09/2022 11:47:06
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/09/2022 11:55:39
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/09/2022 14:22:56
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -1
+Message   : Impossible d'écrire les données sur la connexion de transport : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+Requete   : DeconnexionBase
+

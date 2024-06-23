@@ -1,0 +1,5 @@
+ServeurPostgresql=10.154.249.71
+PortPostgresql=5432
+BasePostgresql=tc_stb
+UserPostgresql=postgres
+PasswordPostgresql=postgres

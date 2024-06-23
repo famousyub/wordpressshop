@@ -1,0 +1,659 @@
+[Workspace Header]
+Version = 1300
+Pathname = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Banc_BWC_RGW.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2013"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2013"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "Banc_BWC_RGW.prj"
+Project 0001 Folder Instrument Files Collapsed = True
+Project 0001 FolderId 3 Collapsed = True
+Project 0001 Folder Library Files Collapsed = True
+Project 0001 FolderId 4 Collapsed = True
+Drag Bar Left = 354
+Window Top = 133
+Window Left = 0
+Window Bottom = 1134
+Window Right = 960
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 21
+Window Confinement Region Enabled = True
+MainColumnWidth = 337
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1300
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 0
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/program files (x86)/national instruments/cvi2013/toolslib/toolbox/inifile.fp"
+File Type = "Function Panel"
+Disk Date = 3455082000
+In Projects = "1,"
+
+[File 0002]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/Rs232/RS232.fp"
+File Type = "Function Panel"
+Disk Date = 3778570056
+In Projects = "1,"
+
+[File 0003]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/ScProduction.fp"
+File Type = "Function Panel"
+Disk Date = 3778570056
+In Projects = "1,"
+
+[File 0004]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/System.fp"
+File Type = "Function Panel"
+Disk Date = 3778570056
+In Projects = "1,"
+
+[File 0005]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Fonctions.c"
+File Type = "CSource"
+Disk Date = 3794806983
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Window Z-Order = 3
+Source Window State = "1,1492,1492,1492,14,15,14,0,0,44,0,0,0,0,0,18,4029,0,4043,8,401,490,1,0,"
+Breakpoint 0001 = "381,0,enabled,"
+Breakpoint 0002 = "395,0,enabled,"
+Breakpoint 0003 = "468,0,enabled,"
+Breakpoint 0004 = "468,0,enabled,"
+Breakpoint 0005 = "1487,0,enabled,"
+Breakpoint 0006 = "4044,0,enabled,"
+Breakpoint 0007 = "6138,0,enabled,"
+Breakpoint 0008 = "6138,0,enabled,"
+Breakpoint 0009 = "6144,0,enabled,"
+Breakpoint 0010 = "6160,0,enabled,"
+Breakpoint 0011 = "6160,0,enabled,"
+Breakpoint 0012 = "6160,0,enabled,"
+Breakpoint 0013 = "6164,0,enabled,"
+Breakpoint 0014 = "6340,0,enabled,"
+Breakpoint 0015 = "6344,0,enabled,"
+Breakpoint 0016 = "8786,0,enabled,"
+Breakpoint 0017 = "8803,0,enabled,"
+Breakpoint 0018 = "8837,0,enabled,"
+Breakpoint 0019 = "8837,0,enabled,"
+Breakpoint 0020 = "8856,0,enabled,"
+Breakpoint 0021 = "8857,0,enabled,"
+Breakpoint 0022 = "9381,0,enabled,"
+Breakpoint 0023 = "9388,0,enabled,"
+Breakpoint 0024 = "9419,0,enabled,"
+Breakpoint 0025 = "9571,0,enabled,"
+Breakpoint 0026 = "9943,0,enabled,"
+Breakpoint 0027 = "9970,0,enabled,"
+Breakpoint 0028 = "10034,0,enabled,"
+Breakpoint 0029 = "10578,0,enabled,"
+Breakpoint 0030 = "10819,0,enabled,"
+Breakpoint 0031 = "10879,0,enabled,"
+Breakpoint 0032 = "10990,0,enabled,"
+Breakpoint 0033 = "10992,0,enabled,"
+Breakpoint 0034 = "11005,0,enabled,"
+Breakpoint 0035 = "11132,0,enabled,"
+Breakpoint 0036 = "11261,0,enabled,"
+Breakpoint 0037 = "11261,0,enabled,"
+Breakpoint 0038 = "11288,0,enabled,"
+
+[File 0006]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Thread.c"
+File Type = "CSource"
+Disk Date = 3794565007
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Window Z-Order = 1
+Source Window State = "1,1084,1084,1084,86,87,86,0,0,165,0,0,0,0,0,41,1453,0,1480,44,349,747,1,0,"
+Breakpoint 0001 = "181,0,enabled,"
+Breakpoint 0002 = "498,0,enabled,"
+Breakpoint 0003 = "911,0,enabled,"
+Breakpoint 0004 = "1073,0,enabled,"
+Breakpoint 0005 = "1077,0,enabled,"
+Breakpoint 0006 = "1081,0,enabled,"
+Breakpoint 0007 = "1082,0,enabled,"
+Breakpoint 0008 = "1084,0,enabled,"
+Breakpoint 0009 = "1338,0,enabled,"
+Breakpoint 0010 = "1428,0,enabled,"
+Breakpoint 0011 = "1459,0,enabled,"
+Breakpoint 0012 = "1475,0,enabled,"
+Breakpoint 0013 = "1588,0,enabled,"
+Breakpoint 0014 = "1590,0,enabled,"
+Breakpoint 0015 = "1591,0,enabled,"
+Breakpoint 0016 = "1614,0,enabled,"
+Breakpoint 0017 = "1618,0,enabled,"
+
+[File 0007]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/IHM.c"
+File Type = "CSource"
+Disk Date = 3792680972
+In Projects = "1,"
+Window Top = 38
+Window Z-Order = 4
+Source Window State = "1,1085,1092,1085,4,62,4,0,0,105,0,0,0,0,0,0,552,0,582,4,26,1028,1,0,"
+Breakpoint 0001 = "1022,0,enabled,"
+Breakpoint 0002 = "1082,0,enabled,"
+
+[File 0008]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/TracaSCProduction.c"
+File Type = "CSource"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Window Z-Order = 18
+Source Window State = "1,1796,1796,1796,4,21,21,0,0,61,0,0,0,0,0,13,1786,0,1801,82,296,630,1,0,"
+
+[File 0009]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Main.c"
+File Type = "CSource"
+Disk Date = 3792567111
+In Projects = "1,"
+Window Top = 219
+Window Left = 106
+Window Z-Order = 5
+Source Window State = "1,0,1123,0,0,0,0,0,0,74,0,0,0,0,0,15,187,0,207,60,349,747,1,0,"
+
+[File 0010]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Mesures.c"
+File Type = "CSource"
+Disk Date = 3792735607
+In Projects = "1,"
+Window Top = 250
+Window Left = 122
+Window Z-Order = 13
+Source Window State = "1,2023,2024,2024,10,36,36,0,0,74,0,0,0,0,0,15,3,2,1964,55,349,747,1,0,"
+Breakpoint 0001 = "2142,0,enabled,"
+Breakpoint 0002 = "2150,0,enabled,"
+Breakpoint 0003 = "2153,0,enabled,"
+
+[File 0011]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Main.h"
+File Type = "Include"
+Disk Date = 3794807149
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 8
+Source Window State = "1,387,387,387,12,17,17,0,0,61,0,0,0,0,0,9,0,0,12,63,221,630,1,0,"
+
+[File 0012]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/TracaSCProduction.h"
+File Type = "Include"
+Disk Date = 3792675012
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 20
+Source Window State = "1,78,78,78,58,69,69,0,0,61,0,0,0,0,0,13,68,0,78,78,296,630,1,0,"
+
+[File 0013]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/Fil2Lo/fil2lo.c"
+File Type = "CSource"
+Disk Date = 3792675649
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 7
+Source Window State = "1,121,121,121,95,100,100,0,0,74,0,0,0,0,0,15,787,0,813,4,349,747,1,0,"
+
+[File 0014]
+Path = "/c/Program Files (x86)/National Instruments/CVI2013/include/ansi/string.h"
+File Type = "Include"
+Disk Date = 3455082000
+In Projects = ""
+Window Top = 64
+Window Left = 26
+Window Z-Order = 21
+Source Window State = "1,45,45,45,16,23,23,0,3,68,0,0,0,0,0,12,28,0,45,16,284,699,1,0,"
+
+[File 0015]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Define.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Window Z-Order = 16
+Source Window State = "1,217,217,217,12,22,22,0,0,69,0,0,0,0,0,11,0,0,222,47,258,707,1,0,"
+
+[File 0016]
+Path = "/c/Program Files (x86)/National Instruments/CVI2013/include/ansi/stdio.h"
+File Type = "Include"
+Disk Date = 3455082000
+In Projects = ""
+Window Top = 38
+Window Left = 10
+Window Z-Order = 19
+Source Window State = "1,159,159,159,13,19,19,0,0,68,0,0,0,0,0,12,149,0,161,38,284,699,1,0,"
+
+[File 0017]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Variables.c"
+File Type = "CSource"
+Disk Date = 3792048122
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Window Z-Order = 15
+Source Window State = "1,248,248,248,51,75,75,0,0,61,0,0,0,0,0,13,228,0,246,45,296,630,1,0,"
+
+[File 0018]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Globale.c"
+File Type = "CSource"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 157
+Window Left = 74
+Window Z-Order = 14
+Source Window State = "1,0,0,0,0,0,0,0,0,74,0,0,0,0,0,15,69,0,0,0,349,747,1,0,"
+
+[File 0019]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Telnet.c"
+File Type = "CSource"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 343
+Window Left = 170
+Window Z-Order = 6
+Source Window State = "1,224,224,224,1,1,1,0,0,74,0,0,0,0,0,15,212,0,235,0,349,747,1,0,"
+
+[File 0020]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Fonctions.h"
+File Type = "Include"
+Disk Date = 3792494078
+In Projects = "1,"
+Window Top = 219
+Window Left = 106
+Window Z-Order = 17
+Source Window State = "1,207,207,207,11,27,27,0,3,74,0,0,0,0,0,15,0,0,207,11,349,747,1,0,"
+
+[File 0021]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Globale.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 12
+Source Window State = "1,148,148,148,12,25,12,0,3,61,0,0,0,0,0,13,134,0,148,25,296,630,1,0,"
+
+[File 0022]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/IHM.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Window Z-Order = 11
+Source Window State = "1,104,104,104,11,26,26,0,3,70,0,0,0,0,0,11,57,0,104,11,258,715,1,0,"
+
+[File 0023]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Ihm/IhmNFT.h"
+File Type = "Include"
+Disk Date = 3797244527
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Window Z-Order = 9
+Source Window State = "1,0,0,0,0,0,0,0,0,70,0,0,0,0,0,15,0,0,0,0,349,715,1,0,"
+
+[File 0024]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Include.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 154
+Window Left = 71
+Window Z-Order = 10
+Source Window State = "1,61,61,61,0,0,0,0,0,80,0,0,0,0,0,19,49,0,61,0,411,804,1,0,"
+
+[File 0025]
+Path = "/c/Program Files (x86)/National Instruments/CVI2013/sdk/include/WinBase.h"
+File Type = "Include"
+Disk Date = 3455082000
+In Projects = ""
+Window Top = 40
+Window Left = 11
+Window Z-Order = 2
+Source Window State = "1,5650,5650,5650,0,12,12,0,3,79,0,0,0,0,0,24,5638,0,5650,0,511,808,1,0,"
+
+[File 0026]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Ihm/IhmNFT.uir"
+File Type = "User Interface Resource"
+Disk Date = 3797244527
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Window Height = 349
+Window Width = 747
+
+[File 0027]
+Path Line0001 = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/TracaCom/dllTracaC"
+Path Line0002 = "om.c"
+File Type = "CSource"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,349,747,1,0,"
+
+[File 0028]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Multilangue.c"
+File Type = "CSource"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 281
+Window Left = 138
+Source Window State = "1,110,110,110,8,8,8,0,0,0,0,0,0,0,0,0,100,0,110,8,349,747,0,0,"
+
+[File 0029]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/replacingall.c"
+File Type = "CSource"
+Disk Date = 3791953207
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Source Window State = "1,44,44,44,56,57,57,0,0,0,0,0,0,0,0,0,24,0,45,64,296,630,1,0,"
+
+[File 0030]
+Path = "/c/Users/g702306/Desktop/HGHH/resultfinale-2G.txt"
+File Type = "Unknown"
+Disk Date = 3790751436
+In Projects = "1,"
+
+[File 0031]
+Path = "/c/Users/g702306/Desktop/HGHH/resultfinale-5G.txt"
+File Type = "Unknown"
+Disk Date = 3790745447
+In Projects = "1,"
+
+[File 0032]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/SCProduction.c"
+File Type = "CSource"
+Disk Date = 3792394596
+In Projects = "1,"
+Window Top = 126
+Window Left = 58
+Source Window State = "1,150,151,150,34,34,34,0,0,0,0,0,0,0,0,0,135,0,136,29,221,630,0,0,"
+
+[File 0033]
+Path Line0001 = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/TracaCom/dllTracaC"
+Path Line0002 = "om.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0034]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/Fil2Lo/fil2lo.h"
+File Type = "Include"
+Disk Date = 3791886526
+In Projects = "1,"
+Window Top = 154
+Window Left = 71
+Source Window State = "1,50,50,50,35,35,35,0,0,0,0,0,0,0,0,0,24,0,50,35,349,715,1,0,"
+
+[File 0035]
+Path = "/c/program files (x86)/national instruments/cvi2013/toolslib/toolbox/inifile.h"
+File Type = "Include"
+Disk Date = 3455082000
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0036]
+Path Line0001 = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/IRTrans/IRTransDLL"
+Path Line0002 = "/IRTransDLL.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0037]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Mesures.h"
+File Type = "Include"
+Disk Date = 3792579628
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Source Window State = "1,33,40,33,0,38,0,0,0,0,0,0,0,0,0,0,22,0,41,0,193,715,1,0,"
+
+[File 0038]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Multilangue.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 116
+Window Left = 51
+Source Window State = "1,69,69,69,8,8,8,0,0,0,0,0,0,0,0,0,63,0,69,8,235,804,1,0,"
+
+[File 0039]
+Path Line0001 = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/IRTrans/IRTransDLL"
+Path Line0002 = "/network.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0040]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/NIDAQmx.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0041]
+Path Line0001 = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/IRTrans/IRTransDLL"
+Path Line0002 = "/remote.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,258,707,1,0,"
+
+[File 0042]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/replacingall.h"
+File Type = "Include"
+Disk Date = 3791346236
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Source Window State = "1,35,35,35,35,35,35,0,0,0,0,0,0,0,0,0,15,0,35,35,296,630,1,0,"
+
+[File 0043]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/Rs232/RS232_Def.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Source Window State = "1,186,186,186,51,51,51,0,0,0,0,0,0,0,0,0,170,0,186,51,232,715,1,0,"
+
+[File 0044]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/NRQ6/rscore.h"
+File Type = "Include"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0045]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/SCProduction.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Source Window State = "1,1442,1442,1442,59,59,59,0,0,0,0,0,0,0,0,0,1430,0,1442,59,266,630,1,0,"
+
+[File 0046]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/System.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 154
+Window Left = 71
+Source Window State = "1,6800,6800,6800,37,37,37,0,0,0,0,0,0,0,0,0,6794,0,6800,37,235,804,1,0,"
+
+[File 0047]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Telnet.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0048]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Thread.h"
+File Type = "Include"
+Disk Date = 3778570056
+In Projects = "1,"
+Window Top = 38
+Window Left = 10
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,236,630,1,0,"
+
+[File 0049]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Variables.h"
+File Type = "Include"
+Disk Date = 3791962425
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Source Window State = "1,267,267,267,4,32,32,0,3,0,0,0,0,0,0,0,260,0,267,4,221,630,1,0,"
+
+[File 0050]
+Path Line0001 = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/IRTrans/IRTransDLL"
+Path Line0002 = "/IRTransDLL.lib"
+File Type = "Library"
+Disk Date = 3778570056
+In Projects = "1,"
+
+[File 0051]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/Bd32/BD32.lib"
+File Type = "Library"
+Disk Date = 3778570056
+In Projects = "1,"
+
+[File 0052]
+Path = "/c/Users/g702306/Desktop/versionpraalele/Banc_BWC_RGW/Src/Lib/Rs232/RS232.lib"
+File Type = "Library"
+Disk Date = 3778570056
+In Projects = "1,"
+
+[File 0053]
+Path = "/c/program files (x86)/national instruments/cvi2013/sdk/lib/msvc/Version.lib"
+File Type = "Library"
+Disk Date = 3455082000
+In Projects = "1,"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

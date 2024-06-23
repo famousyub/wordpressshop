@@ -1,0 +1,172 @@
+[SCPROD_Connexion]
+Class="Function"
+Prototype="int SCPROD_Connexion(T_TCOM_BASE *tcomBase, char *strErreurMessage);"
+
+[SCPROD_Deconnexion]
+Class="Function"
+Prototype="int SCPROD_Deconnexion(T_TCOM_BASE *tcomBase);"
+
+[SCPROD_PosteInformations]
+Class="Function"
+Prototype="int SCPROD_PosteInformations(T_TCOM_BASE *tcomBase, T_POSTE_INFOS *posteInfos, char *strErreurMessage);"
+
+[SCPROD_ProduitsPoste]
+Class="Function"
+Prototype="int SCPROD_ProduitsPoste(T_TCOM_BASE *tcomBase, T_POSTE_INFOS *posteInfos, T_POSTE_PRODUITS *posteProduits, char *strErreurMessage);"
+
+[TCOM_ProduitCopier]
+Class="Function"
+Prototype="int TCOM_ProduitCopier(T_POSTE_PRODUIT *posteProduitIn, T_POSTE_PRODUIT *posteProduitOut);"
+
+[TCOM_ProduitSupprimer]
+Class="Function"
+Prototype="int TCOM_ProduitSupprimer(T_POSTE_PRODUIT *posteProduit);"
+
+[SCPROD_GenerationSnClient]
+Class="Function"
+Prototype="int SCPROD_GenerationSnClient(int nItfe, T_TCOM_BASE *tcomBase, char *strNumSerie, char *strFormatClient, char *strSnClient, char *strErreurMessage, int nbParam, ...);"
+
+[SCPROD_LiberationSnPFIN]
+Class="Function"
+Prototype="int SCPROD_LiberationSnPFIN(int nItfe, T_TCOM_BASE *tcomBase, char *OrdreFabrication, char *strErreurMessage);"
+
+[SCPROD_GenerationStartSnPFIN]
+Class="Function"
+Prototype="int SCPROD_GenerationStartSnPFIN(int nItfe, T_TCOM_BASE *tcomBase, char *codeProduit, char *indiceProduit, char *strErreurMessage);"
+
+[SCPROD_StartSnPFIN]
+Class="Function"
+Prototype="int SCPROD_StartSnPFIN(int nItfe, T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+
+[SCPROD_StartSnCIE]
+Class="Function"
+Prototype="int SCPROD_StartSnCIE(int nItfe, T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+
+[SCPROD_SignoffSnPFIN]
+Class="Function"
+Prototype="int SCPROD_SignoffSnPFIN(int nItfe, T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+
+[SCPROD_RecuperationSFCDepuisComposant]
+Class="Function"
+Prototype="int SCPROD_RecuperationSFCDepuisComposant(int nItfe, T_TCOM_BASE *tcomBase, char *Composant, char *SFC, int *iExistenceSFC, char *strErreurMessage);"
+
+[SCPROD_LogNC]
+Class="Function"
+Prototype="int SCPROD_LogNC(int nItfe, T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+
+[SCPROD_CollectSFCData]
+Class="Function"
+Prototype="int SCPROD_CollectSFCData(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char *NomPropriete, char *ValeurPropriete, char *strErreurMessage);"
+
+[SCPROD_CollectSFCDataTableau]
+Class="Function"
+Prototype="int SCPROD_CollectSFCDataTableau(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char **Tableau, int Lg1, int Lg2, char *strErreurMessage);"
+
+[SCPROD_LogParametricData]
+Class="Function"
+Prototype="int SCPROD_LogParametricData(int nItfe, int IndexMesure, char *strErreurMessage);"
+
+[SCPROD_LogParametricDataTableau]
+Class="Function"
+Prototype="int SCPROD_LogParametricDataTableau(int nItfe, char **Tableau, int Lg1, int Lg2, char *strErreurMessage);"
+
+[SCPROD_AjoutStockComposant]
+Class="Function"
+Prototype="int SCPROD_AjoutStockComposant(int nItfe, T_TCOM_BASE *tcomBase, char *Composant, char *Indice, char *Valeur, int *iExistence, char *SFCParent, char *strErreurMessage);"
+
+[SCPROD_AssemblageComposant]
+Class="Function"
+Prototype="int SCPROD_AssemblageComposant(int nItfe, T_TCOM_BASE *tcomBase, char *ValeurComposant, char *CodeComposant, char *SFC, char *TypeAssemblage, char *Operation, char *Ressource, char *strErreurMessage);"
+
+[SCPROD_AssemblageComposantTableau]
+Class="Function"
+Prototype="int SCPROD_AssemblageComposantTableau(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char *Operation, char *Ressource, char **Tableau, int Lg1, int Lg2, char *strErreurMessage);"
+
+[SCPROD_RecuperationComposant]
+Class="Function"
+Prototype="int SCPROD_RecuperationComposant(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char *TypeComposant, char *ValeurComposant, int *iExistenceComposant, char *strErreurMessage);"
+
+[SCPROD_RecuperationProprieteSFC]
+Class="Function"
+Prototype="int SCPROD_RecuperationProprieteSFC(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char *NomPropriete, char *ValeurPropriete, char *strErreurMessage);"
+
+[SCPROD_RecuperationProprietesSFCTableau]
+Class="Function"
+Prototype="int SCPROD_RecuperationProprietesSFCTableau(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char ***TableauValeurs, int *Lg1, int *Lg2, char *strErreurMessage);"
+
+[SCPROD_CompleteSnPFIN]
+Class="Function"
+Prototype="int SCPROD_CompleteSnPFIN(int nItfe, T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+
+[SCPROD_EnregistrementLog]
+Class="Function"
+Prototype="int SCPROD_EnregistrementLog(int nItfe, T_TCOM_BASE *tcomBase, char *BufferTrace, char *strErreurMessage);"
+
+[SCPROD_InformationsOF]
+Class="Function"
+Prototype="int SCPROD_InformationsOF(int nItfe, T_TCOM_BASE *tcomBase, char *OrdreFabrication, char *RetourCodeProduit, char *RetourIndiceProduit, char *RetourTypeOF, char *strErreurMessage);"
+
+[SCPROD_InformationsSFC]
+Class="Function"
+Prototype="int SCPROD_InformationsSFC(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char *RetourCodeProduit, char *RetourIndiceProduit, char *RetourOF, char *strErreurMessage);"
+
+[SCPROD_InformationsHDD]
+Class="Function"
+Prototype="int SCPROD_InformationsHDD(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char *RetourCodeProduit, char *RetourIndiceProduit, char *strErreurMessage);"
+
+[TCOM_RecuperationProduitsParents]
+Class="Function"
+Prototype="int TCOM_RecuperationProduitsParents(T_TCOM_BASE *tcomBase, char *strCodeProduit, char *strIndiceProduit, T_PRODUIT **tabProduitsParents, int *nbProduitsParents, char *strErreurMessage);"
+
+[TCOM_RecuperationProduitsEnfants]
+Class="Function"
+Prototype="int TCOM_RecuperationProduitsEnfants(T_TCOM_BASE *tcomBase, char *strCodeProduit, char *strIndiceProduit, T_PRODUIT **tabProduitsEnfants, int *nbProduitsEnfants, char *strErreurMessage);"
+
+[SCPROD_RecuperationDateHeure]
+Class="Function"
+Prototype="int SCPROD_RecuperationDateHeure(T_TCOM_BASE *tcomBase, T_DATE_HEURE *dateheure, char *strErreurMessage);"
+
+[TCOM_EcritureCle]
+Class="Function"
+Prototype="int TCOM_EcritureCle(T_TCOM_BASE *tcomBase, char *strNomTableCle, char *strNumSerie, char *strCodeProduit, char *strIndiceProduit, char **tabParam, int iParamLength, char *strErreurMessage);"
+
+[TCOM_RecuperationCles]
+Class="Function"
+Prototype="int TCOM_RecuperationCles(int nItfe, T_TCOM_BASE *tcomBase, char *strNomTableCle, char *strNumSerie, char *strCodeProduit, char *strIndiceProduit, char **tabParam, int iParamLength, char ***tabValeursCle, int *iQuantiteCle, int *iValeursCleLength, char *strErreurMessage);"
+
+[TCOM_LectureCle]
+Class="Function"
+Prototype="int TCOM_LectureCle(int nItfe, T_TCOM_BASE *tcomBase, char *strNomTableCle, char *strNumSerie, char *strCodeProduit, char *strIndiceProduit, char **tabParam, int iParamLength, char ***tabValeursCle, int *iValeursCleLength, char *strErreurMessage);"
+
+[TCOM_RecuperationMasqueLogoEtiquette]
+Class="Function"
+Prototype="int TCOM_RecuperationMasqueLogoEtiquette(int nItfe, T_TCOM_BASE *tcomBase, char *strNumserie, char *strCodeProduit, char *strIndiceProduit, char *strServeurHttp, char *strUrlPage, char *strLogo, char *strErreurMessage);"
+
+[TCOM_RecuperationMasqueEtiquette]
+Class="Function"
+Prototype="int TCOM_RecuperationMasqueEtiquette(int nItfe, T_TCOM_BASE *tcomBase, char *strNumserie, char *strCodeProduit, char *strIndiceProduit, char *strServeurHttp, char *strUrlPage, char *strMasque, char *strErreurMessage);"
+
+[TCOM_RecuperationSectionParametres]
+Class="Function"
+Prototype="int TCOM_RecuperationSectionParametres(T_TCOM_BASE *tcomBase, char *NomSectionParametre, char ***TabParametresDetails, int *NombreLignesParametresDetails, int *NombreColonnesParametresDetails, char *strErreurMessage);"
+
+[TCOM_V2_GenerationSnClient]
+Class="Function"
+Prototype="int TCOM_V2_GenerationSnClient(int nItfe, T_TCOM_BASE *tcomBase, char *strFormatClient, char *strFormatClientSapme, char *strSnClient, char *strErreurMessage, int nbParam, ...);"
+
+[TCOM_GenerationSnClient]
+Class="Function"
+Prototype="int TCOM_GenerationSnClient(int nItfe, T_TCOM_BASE *tcomBase, char *strFormatClient, char *strSnClient, char *strErreurMessage, int nbParam, ...);"
+
+[SCPROD_ImprimerViaDll]
+Class="Function"
+Prototype="int SCPROD_ImprimerViaDll(int nItfe, T_TCOM_BASE *tcomBase, char *SFC, char *chNumArticle, int QteEtiquettes, char *chNomZebra, char *strErreurMessage);"
+
+[SCPROD_TraceAppels]
+Class="Function"
+Prototype="int SCPROD_TraceAppels(int nItfe, char *Message);"
+
+[SCPROD_InformationsBom]
+Class="Function"
+Prototype="int SCPROD_InformationsBom(int nItfe, T_TCOM_BASE *tcomBase, char *OrdreFabrication, char *RetourCodeProduit, char *RetourIndiceProduit, char *RetourTypeOF, char *strErreurMessage);"
+

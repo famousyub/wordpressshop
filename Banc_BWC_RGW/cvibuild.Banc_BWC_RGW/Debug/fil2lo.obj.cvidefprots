@@ -1,0 +1,56 @@
+[FIL2LO_EcritTrace]
+Class="Function"
+Prototype="void FIL2LO_EcritTrace(int flagFil2Lo, int nItfe, char *trace);"
+
+[FIL2LO_EcritTraceV2]
+Class="Function"
+Prototype="void FIL2LO_EcritTraceV2(int flagFil2Lo, int nItfe, char *trace);"
+
+[FIL2LO_EcrireFichier]
+Class="Function"
+Prototype="void FIL2LO_EcrireFichier(char *chNomFichier, char *chaine);"
+
+[FIL2LO_Heure]
+Class="Function"
+Prototype="void FIL2LO_Heure(char ch[81], char chmilli[81]);"
+
+[FIL2LO_HeureV2]
+Class="Function"
+Prototype="void FIL2LO_HeureV2(char ch[81], char chmilli[81]);"
+
+[FIL2LO_Date]
+Class="Function"
+Prototype="void FIL2LO_Date(char ch[81]);"
+
+[FIL2LO_DateV2]
+Class="Function"
+Prototype="void FIL2LO_DateV2(char ch[81]);"
+
+[FIL2LO_PrintDebut]
+Class="Function"
+Prototype="void FIL2LO_PrintDebut(int nItfe);"
+
+[FIL2LO_PrintResultat]
+Class="Function"
+Prototype="void FIL2LO_PrintResultat(int nItfe, int res, char *msgErr, float dTest);"
+
+[FIL2LO_PrintEtape]
+Class="Function"
+Prototype="void FIL2LO_PrintEtape(int nItfe, char *etape);"
+
+[FIL2LO_PrintSousEtape]
+Class="Function"
+Prototype="void FIL2LO_PrintSousEtape(int nItfe, char *etape);"
+
+[FIL2LO_PrintTraceStb]
+Class="Function"
+Prototype="void FIL2LO_PrintTraceStb(int nItfe);"
+
+[FIL2LO_PrintCom]
+Class="Function"
+Prototype="void FIL2LO_PrintCom(int nItfe, int com, char *donnees);"
+
+[FIL2LO_VerifDateChemin]
+Class="Function"
+Prototype="void FIL2LO_VerifDateChemin(int nItfe);"
+

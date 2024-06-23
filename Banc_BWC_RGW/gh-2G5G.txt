@@ -1,0 +1,241 @@
+nom  : _RSSI_RX1  mesure  : -71.00  unite  : dBm  val1  : -73  val2  : -67 
+nom  : _RSSI_RX2  mesure  : -71.00  unite  : dBm  val1  : -73  val2  : -67 
+nom  : _RSSI_RX3  mesure  : -70.00  unite  : dBm  val1  : -73  val2  : -67 
+nom  : _RSSI_RX1  mesure  : -31.00  unite  : dBm  val1  : -33  val2  : -27 
+nom  : _RSSI_RX2  mesure  : -31.00  unite  : dBm  val1  : -33  val2  : -27 
+nom  : _RSSI_RX3  mesure  : -31.00  unite  : dBm  val1  : -33  val2  : -27 
+step : 10.TX_VERIFY EVM MASK POWER SPECTRUM 2412 MCS0 EHT_MU BW-20 ANT1 
+nom  : 10_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -31.22  unite  : dB  val1  : -5 
+nom  : 10_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -8.72  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 10_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 6.72  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 5.73  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 10.72  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 16.12  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 8.07  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 8.31  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 5.85  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 5.20  unite  : dB  val1  : 0 
+nom  : 10_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.37  unite  : dB  val1  : -4  val2  : 4 
+nom  : 10_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.28  unite  : dB  val1  : -6  val2  : 4 
+nom  : 10_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.59  unite  : dB  val1  : -4  val2  : 4 
+nom  : 10_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : -0.53  unite  : dB  val1  : -6  val2  : 4 
+nom  : 10_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 19.36  unite  : dB  val1  : 0 
+step : 11.TX_VERIFY EVM MASK POWER SPECTRUM 2412 MCS0 EHT_MU BW-20 ANT2 
+nom  : 11_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -30.22  unite  : dB  val1  : -5 
+nom  : 11_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -8.74  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 11_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 6.71  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 5.67  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 11.30  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 16.63  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 8.67  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 8.33  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 6.69  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 6.44  unite  : dB  val1  : 0 
+nom  : 11_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.55  unite  : dB  val1  : -4  val2  : 4 
+nom  : 11_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.49  unite  : dB  val1  : -6  val2  : 4 
+nom  : 11_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.90  unite  : dB  val1  : -4  val2  : 4 
+nom  : 11_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : -1.07  unite  : dB  val1  : -6  val2  : 4 
+nom  : 11_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 18.09  unite  : dB  val1  : 0 
+step : 12.TX_VERIFY EVM MASK POWER SPECTRUM 2412 MCS0 EHT_MU BW-20 ANT3 
+nom  : 12_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -31.75  unite  : dB  val1  : -5 
+nom  : 12_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -8.76  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 12_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 7.66  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 6.13  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 9.91  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 20.22  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 7.15  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 7.41  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 7.21  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 6.69  unite  : dB  val1  : 0 
+nom  : 12_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.59  unite  : dB  val1  : -4  val2  : 4 
+nom  : 12_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.58  unite  : dB  val1  : -6  val2  : 4 
+nom  : 12_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.78  unite  : dB  val1  : -4  val2  : 4 
+nom  : 12_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : -0.72  unite  : dB  val1  : -6  val2  : 4 
+nom  : 12_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 14.65  unite  : dB  val1  : 0 
+step : 13.TX_VERIFY EVM MASK POWER SPECTRUM 2462 MCS13 EHT_MU BW-40 ANT1 
+nom  : 13_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -40.90  unite  : dB  val1  : -38 
+nom  : 13_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -8.63  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 13_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 16.72  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 15.89  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 11.92  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 13.23  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 18.41  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 18.11  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 24.12  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 25.09  unite  : dB  val1  : 0 
+nom  : 13_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 1.04  unite  : dB  val1  : -4  val2  : 4 
+nom  : 13_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.83  unite  : dB  val1  : -6  val2  : 4 
+nom  : 13_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -1.59  unite  : dB  val1  : -4  val2  : 4 
+nom  : 13_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : -3.56  unite  : dB  val1  : -6  val2  : 4 
+nom  : 13_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 19.24  unite  : dB  val1  : 0 
+step : 14.TX_VERIFY EVM MASK POWER SPECTRUM 2462 MCS13 EHT_MU BW-40 ANT2 
+nom  : 14_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -41.31  unite  : dB  val1  : -38 
+nom  : 14_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -8.65  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 14_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 16.00  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 14.98  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 11.53  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 11.98  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 18.11  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 17.54  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 23.56  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 24.14  unite  : dB  val1  : 0 
+nom  : 14_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 1.08  unite  : dB  val1  : -4  val2  : 4 
+nom  : 14_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.79  unite  : dB  val1  : -6  val2  : 4 
+nom  : 14_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -1.52  unite  : dB  val1  : -4  val2  : 4 
+nom  : 14_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : -3.38  unite  : dB  val1  : -6  val2  : 4 
+nom  : 14_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 15.97  unite  : dB  val1  : 0 
+step : 15.TX_VERIFY EVM MASK POWER SPECTRUM 2462 MCS13 EHT_MU BW-40 ANT3 
+nom  : 15_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -40.73  unite  : dB  val1  : -38 
+nom  : 15_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -8.68  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 15_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 17.24  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 15.65  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 12.57  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 13.83  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 17.12  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 16.60  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 23.30  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 24.32  unite  : dB  val1  : 0 
+nom  : 15_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 1.07  unite  : dB  val1  : -4  val2  : 4 
+nom  : 15_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 1.03  unite  : dB  val1  : -6  val2  : 4 
+nom  : 15_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -1.12  unite  : dB  val1  : -4  val2  : 4 
+nom  : 15_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : -2.94  unite  : dB  val1  : -6  val2  : 4 
+nom  : 15_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 14.40  unite  : dB  val1  : 0 
+step : 16.RX_VERIFY PER 2442 MCS0 EHT_MU BW-20 ANT1 
+step : 17.RX_VERIFY PER 2442 MCS0 EHT_MU BW-20 ANT2 
+step : 18.RX_VERIFY PER 2442 MCS0 EHT_MU BW-20 ANT3 
+nom  : _RSSI_RX1  mesure  : -70.00  unite  : dBm  val1  : -73  val2  : -67 
+nom  : _RSSI_RX2  mesure  : -70.00  unite  : dBm  val1  : -73  val2  : -67 
+nom  : _RSSI_RX3  mesure  : -70.00  unite  : dBm  val1  : -73  val2  : -67 
+nom  : _RSSI_RX4  mesure  : -70.00  unite  : dBm  val1  : -73  val2  : -67 
+step : 27.TX_VERIFY EVM MASK POWER SPECTRUM 5500 MCS0 EHT_MU BW-20 ANT1 
+nom  : 27_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -18.55  unite  : dB  val1  : -5 
+nom  : 27_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.01  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 27_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 4.57  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 3.41  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 15.54  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 15.11  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 4.86  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 3.17  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 4.95  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 8.07  unite  : dB  val1  : 0 
+nom  : 27_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.15  unite  : dB  val1  : -4  val2  : 4 
+nom  : 27_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.29  unite  : dB  val1  : -6  val2  : 4 
+nom  : 27_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.12  unite  : dB  val1  : -4  val2  : 4 
+nom  : 27_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.24  unite  : dB  val1  : -6  val2  : 4 
+nom  : 27_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 0.81  unite  : dB  val1  : 0 
+step : 28.TX_VERIFY EVM MASK POWER SPECTRUM 5500 MCS0 EHT_MU BW-20 ANT2 
+nom  : 28_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -18.27  unite  : dB  val1  : -5 
+nom  : 28_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.02  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 28_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 2.32  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 1.88  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 14.22  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 14.53  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 4.80  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 3.40  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 5.16  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 8.15  unite  : dB  val1  : 0 
+nom  : 28_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.13  unite  : dB  val1  : -4  val2  : 4 
+nom  : 28_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.37  unite  : dB  val1  : -6  val2  : 4 
+nom  : 28_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : 0.20  unite  : dB  val1  : -4  val2  : 4 
+nom  : 28_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.34  unite  : dB  val1  : -6  val2  : 4 
+nom  : 28_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 5.98  unite  : dB  val1  : 0 
+step : 29.TX_VERIFY EVM MASK POWER SPECTRUM 5500 MCS0 EHT_MU BW-20 ANT3 
+nom  : 29_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -19.03  unite  : dB  val1  : -5 
+nom  : 29_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.03  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 29_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 4.49  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 2.65  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 14.02  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 14.49  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 4.86  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 3.95  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 5.55  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 8.53  unite  : dB  val1  : 0 
+nom  : 29_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.16  unite  : dB  val1  : -4  val2  : 4 
+nom  : 29_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.38  unite  : dB  val1  : -6  val2  : 4 
+nom  : 29_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.53  unite  : dB  val1  : -4  val2  : 4 
+nom  : 29_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.19  unite  : dB  val1  : -6  val2  : 4 
+nom  : 29_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 6.31  unite  : dB  val1  : 0 
+step : 30.TX_VERIFY EVM MASK POWER SPECTRUM 5500 MCS0 EHT_MU BW-20 ANT4 
+nom  : 30_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -18.68  unite  : dB  val1  : -5 
+nom  : 30_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.05  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 30_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 3.83  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 2.74  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 14.65  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 14.20  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 4.63  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 3.93  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 6.03  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 7.42  unite  : dB  val1  : 0 
+nom  : 30_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.50  unite  : dB  val1  : -4  val2  : 4 
+nom  : 30_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.23  unite  : dB  val1  : -6  val2  : 4 
+nom  : 30_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.51  unite  : dB  val1  : -4  val2  : 4 
+nom  : 30_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.40  unite  : dB  val1  : -6  val2  : 4 
+nom  : 30_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 5.60  unite  : dB  val1  : 0 
+step : 31.TX_VERIFY EVM MASK POWER SPECTRUM 5250 MCS13 EHT_MU BW-160 ANT1 
+nom  : 31_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -39.58  unite  : dB  val1  : -38 
+nom  : 31_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.06  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 31_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 12.85  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 12.76  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 12.34  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 12.43  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 11.78  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 11.39  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 10.45  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 10.57  unite  : dB  val1  : 0 
+nom  : 31_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.65  unite  : dB  val1  : -4  val2  : 4 
+nom  : 31_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : -0.83  unite  : dB  val1  : -4  val2  : 4 
+nom  : 31_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : 0.81  unite  : dB  val1  : -4  val2  : 4 
+nom  : 31_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.35  unite  : dB  val1  : -4  val2  : 4 
+nom  : 31_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 15.61  unite  : dB  val1  : 0 
+step : 32.TX_VERIFY EVM MASK POWER SPECTRUM 5250 MCS13 EHT_MU BW-160 ANT2 
+nom  : 32_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -39.08  unite  : dB  val1  : -38 
+nom  : 32_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.08  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 32_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 12.56  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 11.85  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 12.46  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 12.37  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 12.25  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 10.68  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 7.41  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 9.56  unite  : dB  val1  : 0 
+nom  : 32_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.63  unite  : dB  val1  : -4  val2  : 4 
+nom  : 32_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : -0.60  unite  : dB  val1  : -4  val2  : 4 
+nom  : 32_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : 0.21  unite  : dB  val1  : -4  val2  : 4 
+nom  : 32_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : -0.45  unite  : dB  val1  : -4  val2  : 4 
+nom  : 32_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 15.72  unite  : dB  val1  : 0 
+step : 33.TX_VERIFY EVM MASK POWER SPECTRUM 5250 MCS13 EHT_MU BW-160 ANT3 
+nom  : 33_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -39.95  unite  : dB  val1  : -38 
+nom  : 33_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.12  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 33_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 13.23  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 13.26  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 12.20  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 12.51  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 12.18  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 11.48  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 8.03  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 10.32  unite  : dB  val1  : 0 
+nom  : 33_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.56  unite  : dB  val1  : -4  val2  : 4 
+nom  : 33_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : -0.78  unite  : dB  val1  : -4  val2  : 4 
+nom  : 33_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : 0.71  unite  : dB  val1  : -4  val2  : 4 
+nom  : 33_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.36  unite  : dB  val1  : -4  val2  : 4 
+nom  : 33_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 21.98  unite  : dB  val1  : 0 
+step : 34.TX_VERIFY EVM MASK POWER SPECTRUM 5250 MCS13 EHT_MU BW-160 ANT4 
+nom  : 34_TX_VERIFY_EVM_DB_AVG_S1  mesure  : -40.04  unite  : dB  val1  : -38 
+nom  : 34_TX_VERIFY_FREQ_ERROR_AVG  mesure  : -18.15  unite  : ppm  val1  : -20  val2  : 20 
+nom  : 34_TX_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 13.31  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 12.54  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 12.14  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 12.55  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 11.62  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 11.53  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 10.05  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 10.37  unite  : dB  val1  : 0 
+nom  : 34_TX_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.67  unite  : dB  val1  : -4  val2  : 4 
+nom  : 34_TX_VERIFY_VALUE_LO_B_VSA1  mesure  : -0.88  unite  : dB  val1  : -4  val2  : 4 
+nom  : 34_TX_VERIFY_VALUE_UP_A_VSA1  mesure  : 0.78  unite  : dB  val1  : -4  val2  : 4 
+nom  : 34_TX_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.37  unite  : dB  val1  : -4  val2  : 4 
+nom  : 34_TX_VERIFY_LO_LEAKAGE_MARGIN_VSA1  mesure  : 16.32  unite  : dB  val1  : 0 
+step : 35.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT1 
+step : 36.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT2 
+step : 37.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT3 
+step : 38.RX_VERIFY PER 5500 MCS0 EHT_MU BW-20 ANT4 

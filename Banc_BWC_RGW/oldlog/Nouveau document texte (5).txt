@@ -1,0 +1,21 @@
+ FCT_RemplacerTag ( ligne_fail,FCT_PRINT_TAILLE_MAX,"TEST_VERIFY EVM MASK POWER SPECTRUM","EVM");
+				  //pour supprimer les espaces:
+				  
+				  
+				  while (ligne_fail[i] != '\0')
+                 {
+                     if ((ligne_fail[i] == ' ' && ligne_fail[i+1] == ' ') != 1) {
+                             res[j] = ligne_fail[i];
+                             j++;
+                             }
+                             i++;
+                 }
+				  
+				  //FCT_RemplacerTag ( ligne_fail, int nTaille,"_HT_MF","");
+				  //FCT_RemplacerTag ( ligne_fail, int nTaille,"_HT_MF","");
+				  sprintf (strMessageErreur,"%s",res);
+				//strMessageErreur=ligne_fail;
+				
+				 // FCT_AfficheInfo (nItfe, IHM_MODE_TRACE_TXTBOX|IHM_MODE_TRACE_LOG, 999,ligne_fail);
+			}	
+		char res[TAILLE_MAX] = "";	

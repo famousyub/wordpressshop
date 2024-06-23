@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 23/10/2019 17:05:02
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -2147467259
+Message   : pg_hba.conf rejects connection for host "10.153.172.92", user "postgres", database "tc_rgw", SSL off
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 23/10/2019 17:05:02
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -2147467259
+Message   : pg_hba.conf rejects connection for host "10.153.172.92", user "postgres", database "tc_rgw", SSL off
+Requete   : ConfigurationBase
+

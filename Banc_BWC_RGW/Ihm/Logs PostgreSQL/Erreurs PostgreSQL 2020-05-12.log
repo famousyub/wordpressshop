@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/05/2020 10:54:14
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/05/2020 10:54:34
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -1
+Message   : Impossible de lire les données de la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant.
+Requete   : ConfigurationBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/05/2020 11:29:26
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/05/2020 11:29:47
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -1
+Message   : Impossible de lire les données de la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant.
+Requete   : ConfigurationBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/05/2020 15:04:47
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -1
+Message   : Impossible de lire les données de la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant.
+Requete   : ConfigurationBase
+

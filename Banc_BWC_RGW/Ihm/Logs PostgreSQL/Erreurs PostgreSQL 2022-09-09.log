@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 09/09/2022 11:16:54
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 09/09/2022 15:31:01
+Poste     : EZR-DESK558391
+Matricule : G558391
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+

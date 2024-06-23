@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/12/2023 11:49:55
+Poste     : EZR-LAP558468
+Matricule : G558468
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/12/2023 14:04:12
+Poste     : EZR-LAP558468
+Matricule : G558468
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/12/2023 14:27:07
+Poste     : EZR-DESK558468
+Matricule : G558468
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/12/2023 14:36:28
+Poste     : EZR-DESK558468
+Matricule : G558468
+Code      : -1
+Message   : Impossible de lire les données de la connexion de transport : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/12/2023 15:11:16
+Poste     : EZR-DESK558468
+Matricule : G558468
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 12/12/2023 16:11:11
+Poste     : EZR-DESK558468
+Matricule : G558468
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+

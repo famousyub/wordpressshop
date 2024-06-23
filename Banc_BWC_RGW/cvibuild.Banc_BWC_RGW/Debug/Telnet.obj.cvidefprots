@@ -1,0 +1,56 @@
+[AfficheInfo]
+Class="Function"
+Prototype="void AfficheInfo(int mode, int codeErr, ...);"
+
+[Telnet_Query_thread]
+Class="Function"
+Prototype="int Telnet_Query_thread(int handletelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+
+[DisconnectTelnetThread]
+Class="Function"
+Prototype="int DisconnectTelnetThread(int handle);"
+
+[ConnectTelnetThread]
+Class="Function"
+Prototype="int ConnectTelnetThread(char *Ip, int *handleTelnet);"
+
+[Telnet_QueryThread_2G]
+Class="Function"
+Prototype="int Telnet_QueryThread_2G(int handleTelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+
+[ClearBufferTelnet_2G]
+Class="Function"
+Prototype="int ClearBufferTelnet_2G(int iFlagTelnet);"
+
+[ClearBufferTelnet]
+Class="Function"
+Prototype="int ClearBufferTelnet(int iFlagTelnet);"
+
+[UpdateIHM]
+Class="Function"
+Prototype="int UpdateIHM();"
+
+[ClearBufferTelnet_5G]
+Class="Function"
+Prototype="int ClearBufferTelnet_5G(int iFlagTelnet);"
+
+[Telnet_Query_TME]
+Class="Function"
+Prototype="int Telnet_Query_TME(int handleTelnet, char *reponse, int TimeOutms);"
+
+[Telnet_Query_TBR6_FP]
+Class="Function"
+Prototype="int Telnet_Query_TBR6_FP(int handleTelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+
+[Telnet_Query_GPIO]
+Class="Function"
+Prototype="int Telnet_Query_GPIO(int handleTelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+
+[Telnet_Query_Festo]
+Class="Function"
+Prototype="int Telnet_Query_Festo(int handleTelnet, char *Question, char *Tag, char *reponse, char *signal, int IndiceCMMO, int TimeOutms);"
+
+[Telnet_Query]
+Class="Function"
+Prototype="int Telnet_Query(int HandleTelnet, char *Question, char *Tag, char *Response, char *signal, int TimeOutms);"
+

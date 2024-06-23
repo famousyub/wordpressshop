@@ -1,0 +1,56 @@
+[IHM_GestCtrlPnl]
+Class="Function"
+Prototype="int IHM_GestCtrlPnl(int nItfe);"
+
+[Cb_Liberation]
+Class="Function"
+Prototype="int Cb_Liberation(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CB_ActiveLog]
+Class="Function"
+Prototype="int CB_ActiveLog(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CB_PanelPere]
+Class="Function"
+Prototype="int CB_PanelPere(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CB_IntitPalette]
+Class="Function"
+Prototype="int CB_IntitPalette(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ChargeListeProduits]
+Class="Function"
+Prototype="int ChargeListeProduits();"
+
+[ClasseListeProduits]
+Class="Function"
+Prototype="void ClasseListeProduits(T_POSTE_PRODUITS *posteProduits, int type);"
+
+[IHM_SlotCreate]
+Class="Function"
+Prototype="int IHM_SlotCreate(T_SLOT *tSlot, char *strErreurMessage);"
+
+[IHM_SlotRemove]
+Class="Function"
+Prototype="int IHM_SlotRemove(int nItfe, char *strErreurMessage);"
+
+[IHM_ShowPopup]
+Class="Function"
+Prototype="int IHM_ShowPopup(T_IHM_SLOT *tIhmSlot, int type, char *titre, char *message);"
+
+[IHM_ShowLot]
+Class="Function"
+Prototype="int IHM_ShowLot(T_IHM_SLOT *tIhmSlot, int *lot, int *palette);"
+
+[IHM_GetSlotIndexFromPanel]
+Class="Function"
+Prototype="int IHM_GetSlotIndexFromPanel(int panel);"
+
+[IHM_CentrerObjet]
+Class="Function"
+Prototype="int IHM_CentrerObjet(int panel, int objet1, int objet2, int type);"
+
+[IHM_ShowSn]
+Class="Function"
+Prototype="int IHM_ShowSn(T_IHM_SLOT *tIhmSlot, char *titre);"
+

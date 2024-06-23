@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 29/10/2019 12:10:53
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -1
+Message   : There is already an open DataReader associated with this Command which must be closed first.
+Requete   : RecuperationProprietesParPoste
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 29/10/2019 12:21:08
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -1
+Message   : Backend sent unrecognized response type: i
+Requete   : RecuperationProprietesParPoste
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 29/10/2019 12:21:08
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -1
+Message   : Backend sent unrecognized response type: 3
+Requete   : RecuperationTypeTestsParProduitParPoste
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 29/10/2019 12:21:11
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -1
+Message   : Impossible d'écrire dans un BufferedStream tant que la mémoire tampon n'est pas vide, si le flux sous-jacent ne prend pas en charge la recherche. Vérifiez que le flux sous-jacent à ce BufferedStream peut rechercher ou éviter l'entrelacement d'opérations en lecture et en écriture sur ce BufferedStream.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 29/10/2019 12:41:31
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -1
+Message   : There is already an open DataReader associated with this Command which must be closed first.
+Requete   : RecuperationProprietesParPoste
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 29/10/2019 16:46:34
+Poste     : BNR-DESK546456
+Matricule : g546456
+Code      : -1
+Message   : There is already an open DataReader associated with this Command which must be closed first.
+Requete   : RecuperationProprietesParPoste
+

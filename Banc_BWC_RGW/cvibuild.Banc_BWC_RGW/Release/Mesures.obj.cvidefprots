@@ -1,0 +1,52 @@
+[MES_Get]
+Class="Function"
+Prototype="int MES_Get(T_MESURES *tTabMesure, struct __SCProduction_GestionProductions *instSCProduction, char *codeProduit, char *indiceProduit, char *nomPoste, int nItfe, int idPort, char *strErreurMessage);"
+
+[MES_Delete]
+Class="Function"
+Prototype="int MES_Delete(T_MESURES *tTabMesure);"
+
+[MES_Reset]
+Class="Function"
+Prototype="int MES_Reset(T_MESURES *tTabMesure);"
+
+[MES_Index]
+Class="Function"
+Prototype="int MES_Index(T_MESURES *tTabMesure, T_MES_TYPE type);"
+
+[MES_GetName]
+Class="Function"
+Prototype="int MES_GetName(T_MES_TYPE type, char *chName);"
+
+[MES_Capturer]
+Class="Function"
+Prototype="int MES_Capturer(T_MESURES *tTabMesure, T_MES_TYPE type, char *status, float valeur, int duree);"
+
+[MES_Enregistrer]
+Class="Function"
+Prototype="int MES_Enregistrer(T_MESURES *tTabMesure, long long idMvtTest, char *strMessageErreur);"
+
+[MES_PrintTab]
+Class="Function"
+Prototype="int MES_PrintTab(T_MESURES *tMesures, char *strPrint);"
+
+[MES_Print]
+Class="Function"
+Prototype="int MES_Print(T_MESURE *tMesure, char *strPrint);"
+
+[MES_EnregistrerTableau]
+Class="Function"
+Prototype="int MES_EnregistrerTableau(T_MESURES *tTabMesure, int nItfe, char *strMessageErreur);"
+
+[MES_EnregistrerTableauV2]
+Class="Function"
+Prototype="int MES_EnregistrerTableauV2(T_MESURES1 *tTabMesure, int nItfe, FILE *fichier, char *strMessageErreur);"
+
+[MES_EnregistrerTableauV3]
+Class="Function"
+Prototype="int MES_EnregistrerTableauV3(T_MESURES1 *tTabMesure, int nItfe, FILE *fichier, char *strMessageErreur);"
+
+[MES_EnregistrerTableauV2Log]
+Class="Function"
+Prototype="int MES_EnregistrerTableauV2Log(T_MESURES *tTabMesure, const char *filename, int nItfe, FILE *fichier, char *strMessageErreur);"
+

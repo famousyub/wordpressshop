@@ -1,0 +1,575 @@
+nom  : _POWER_DIFFERENCE_0  mesure  : 5.89  unite  : dBm  val1  : -8  val2  : 17 
+nom  : _CAL_BAND_0_CHAIN_1  mesure  : 5.34  unite  : Radius 
+nom  : _CAL_BAND_0_CHAIN_2  mesure  : 4.82  unite  : Radius 
+nom  : _CAL_BAND_0_CHAIN_3  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_1_CHAIN_1  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_1_CHAIN_2  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_1_CHAIN_3  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_2_CHAIN_1  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_2_CHAIN_2  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_2_CHAIN_3  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_3_CHAIN_1  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_3_CHAIN_2  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_3_CHAIN_3  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_4_CHAIN_1  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_4_CHAIN_2  mesure  : 0.00  unite  : Radius 
+nom  : _CAL_BAND_4_CHAIN_3  mesure  : 0.00  unite  : Radius 
+nom  : _RSSI  mesure  : 0.00  unite  : dBm 
+nom  : _RX_POWER_LEVEL  mesure  : -45.00  unite  : dBm 
+nom  : _TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+step : 17.TEST_VERIFY_PER_RSSI_2437_MCS7_HE20 
+nom  : 17_TEST_VERIFY_PER_RSSI_2437_MCS7_HE20_CABLE_LOSS_DB_RET1  mesure  : 24.60  unite  : dB 
+nom  : 17_TEST_VERIFY_PER_RSSI_2437_MCS7_HE20_RX_POWER_LEVEL_DBM_RX1  mesure  : -70.00  unite  : dBm 
+nom  : 17_TEST_VERIFY_PER_RSSI_2437_MCS7_HE20_RX_POWER_LEVEL_DBM_RX2  mesure  : -70.00  unite  : dBm 
+nom  : 17_TEST_VERIFY_PER_RSSI_2437_MCS7_HE20_RX_POWER_LEVEL_DBM_RX3  mesure  : -70.00  unite  : dBm 
+nom  : _CABLE_LOSS_DB_RET1  mesure  : 24.60  unite  : dB 
+nom  : _CABLE_LOSS_DB_RET2  mesure  : 24.59  unite  : dB 
+nom  : _CABLE_LOSS_DB_RET3  mesure  : 24.59  unite  : dB 
+nom  : _CABLE_LOSS_DB_RET4  mesure  : 24.63  unite  : dB 
+nom  : _CABLE_LOSS_DB_RET5  mesure  : 0.00  unite  : dB 
+nom  : _CABLE_LOSS_DB_RET6  mesure  : 0.00  unite  : dB 
+nom  : _CABLE_LOSS_DB_RET7  mesure  : 0.00  unite  : dB 
+nom  : _CABLE_LOSS_DB_RET8  mesure  : 0.00  unite  : dB 
+step : 21.TEST_VERIFY EVM MASK POWER SPECTRUM 2437 DSSS-1 NON_HT BW-20 ANT1 
+step : 22.TEST_VERIFY EVM MASK POWER SPECTRUM 2437 DSSS-1 NON_HT BW-20 ANT2 
+step : 23.TEST_VERIFY EVM MASK POWER SPECTRUM 2437 DSSS-1 NON_HT BW-20 ANT3 
+step : 26.TEST_VERIFY EVM MASK POWER SPECTRUM 2437 DSSS-1 NON_HT BW-20 ANT1 
+nom  : 26_TEST_VERIFY_AMP_ERR_DB_S1  mesure  : 0.00  unite  : dB 
+nom  : 26_TEST_VERIFY_CABLE_LOSS_DB_RET1  mesure  : 24.60  unite  : dB 
+nom  : 26_TEST_VERIFY_DATA_RATE  mesure  : 1.00  unite  : Mbps 
+nom  : 26_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -21.48  unite  : dB 
+nom  : 26_TEST_VERIFY_EVM_DB_MAX_S1  mesure  : -21.43  unite  : dB 
+nom  : 26_TEST_VERIFY_EVM_DB_MIN_S1  mesure  : -21.52  unite  : dB 
+nom  : 26_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.84  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 26_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.83  unite  : ppm 
+nom  : 26_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.84  unite  : ppm 
+nom  : 26_TEST_VERIFY_FREQ_MHZ_LO_A_VSA1  mesure  : -11.02  unite  : MHz 
+nom  : 26_TEST_VERIFY_FREQ_MHZ_LO_B_VSA1  mesure  : -25.00  unite  : MHz 
+nom  : 26_TEST_VERIFY_FREQ_MHZ_UP_A_VSA1  mesure  : 11.02  unite  : MHz 
+nom  : 26_TEST_VERIFY_FREQ_MHZ_UP_B_VSA1  mesure  : 28.98  unite  : MHz 
+nom  : 26_TEST_VERIFY_LO_LEAKAGE_DBC_VSA1  mesure  : -32.24  unite  : dBc  val1  : -100  val2  : -20 
+nom  : 26_TEST_VERIFY_MARGIN_DB_LO_A_VSA_1  mesure  : 19.65  unite  : dB 
+nom  : 26_TEST_VERIFY_MARGIN_DB_LO_B_VSA_1  mesure  : 5.82  unite  : dB 
+nom  : 26_TEST_VERIFY_MARGIN_DB_UP_A_VSA_1  mesure  : 19.41  unite  : dB 
+nom  : 26_TEST_VERIFY_MARGIN_DB_UP_B_VSA_1  mesure  : 3.72  unite  : dB 
+nom  : 26_TEST_VERIFY_OBW_FREQ_START_MHZ_VSA_1  mesure  : -5.82  unite  : MHz 
+nom  : 26_TEST_VERIFY_OBW_FREQ_STOP_MHZ_VSA_1  mesure  : 5.86  unite  : MHz 
+nom  : 26_TEST_VERIFY_PHASE_ERR_ALL  mesure  : 0.00  unite  : Degree 
+nom  : 26_TEST_VERIFY_PHASE_ERR_S1  mesure  : 0.00  unite  : Degree 
+nom  : 26_TEST_VERIFY_PHASE_NOISE_RMS_ALL  mesure  : 0.11  unite  : Degree 
+nom  : 26_TEST_VERIFY_PK_EVM_DB_AVG_S1  mesure  : -16.10  unite  : dB 
+nom  : 26_TEST_VERIFY_PK_EVM_DB_MAX_S1  mesure  : -15.97  unite  : dB 
+nom  : 26_TEST_VERIFY_POWER_AVG_1  mesure  : 14.86  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 15.01  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_DBM_RMS_MAX_VSA1  mesure  : 15.01  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 14.78  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_DBM_RMS_MIN_VSA1  mesure  : 14.78  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 14.86  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_MAX_1  mesure  : 15.01  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_MIN_1  mesure  : 14.78  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 18.57  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 18.73  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 18.48  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 14.98  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 15.12  unite  : dBm 
+nom  : 26_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.90  unite  : dBm 
+nom  : 26_TEST_VERIFY_SYMBOL_CLK_ERR_ALL  mesure  : -4.10  unite  : ppm 
+nom  : 26_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+step : 27.TEST_VERIFY EVM MASK POWER SPECTRUM 2437 DSSS-1 NON_HT BW-20 ANT2 
+nom  : 27_TEST_VERIFY_AMP_ERR_DB_S1  mesure  : 0.00  unite  : dB 
+nom  : 27_TEST_VERIFY_CABLE_LOSS_DB_RET2  mesure  : 24.59  unite  : dB 
+nom  : 27_TEST_VERIFY_DATA_RATE  mesure  : 1.00  unite  : Mbps 
+nom  : 27_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -21.24  unite  : dB 
+nom  : 27_TEST_VERIFY_EVM_DB_MAX_S1  mesure  : -21.17  unite  : dB 
+nom  : 27_TEST_VERIFY_EVM_DB_MIN_S1  mesure  : -21.28  unite  : dB 
+nom  : 27_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.87  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 27_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.86  unite  : ppm 
+nom  : 27_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.87  unite  : ppm 
+nom  : 27_TEST_VERIFY_FREQ_MHZ_LO_A_VSA1  mesure  : -14.02  unite  : MHz 
+nom  : 27_TEST_VERIFY_FREQ_MHZ_LO_B_VSA1  mesure  : -29.02  unite  : MHz 
+nom  : 27_TEST_VERIFY_FREQ_MHZ_UP_A_VSA1  mesure  : 13.98  unite  : MHz 
+nom  : 27_TEST_VERIFY_FREQ_MHZ_UP_B_VSA1  mesure  : 28.98  unite  : MHz 
+nom  : 27_TEST_VERIFY_LO_LEAKAGE_DBC_VSA1  mesure  : -35.85  unite  : dBc  val1  : -100  val2  : -20 
+nom  : 27_TEST_VERIFY_MARGIN_DB_LO_A_VSA_1  mesure  : 20.04  unite  : dB 
+nom  : 27_TEST_VERIFY_MARGIN_DB_LO_B_VSA_1  mesure  : 7.24  unite  : dB 
+nom  : 27_TEST_VERIFY_MARGIN_DB_UP_A_VSA_1  mesure  : 19.07  unite  : dB 
+nom  : 27_TEST_VERIFY_MARGIN_DB_UP_B_VSA_1  mesure  : 6.41  unite  : dB 
+nom  : 27_TEST_VERIFY_OBW_FREQ_START_MHZ_VSA_1  mesure  : -5.74  unite  : MHz 
+nom  : 27_TEST_VERIFY_OBW_FREQ_STOP_MHZ_VSA_1  mesure  : 5.86  unite  : MHz 
+nom  : 27_TEST_VERIFY_PHASE_ERR_ALL  mesure  : 0.00  unite  : Degree 
+nom  : 27_TEST_VERIFY_PHASE_ERR_S1  mesure  : 0.00  unite  : Degree 
+nom  : 27_TEST_VERIFY_PHASE_NOISE_RMS_ALL  mesure  : 0.12  unite  : Degree 
+nom  : 27_TEST_VERIFY_PK_EVM_DB_AVG_S1  mesure  : -15.81  unite  : dB 
+nom  : 27_TEST_VERIFY_PK_EVM_DB_MAX_S1  mesure  : -15.71  unite  : dB 
+nom  : 27_TEST_VERIFY_POWER_AVG_1  mesure  : 14.88  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 14.98  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_DBM_RMS_MAX_VSA1  mesure  : 14.98  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 14.68  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_DBM_RMS_MIN_VSA1  mesure  : 14.68  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 14.88  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_MAX_1  mesure  : 14.98  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_MIN_1  mesure  : 14.68  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 18.59  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 18.68  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 18.42  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 15.00  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 15.10  unite  : dBm 
+nom  : 27_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.81  unite  : dBm 
+nom  : 27_TEST_VERIFY_SYMBOL_CLK_ERR_ALL  mesure  : -7.82  unite  : ppm 
+nom  : 27_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+step : 28.TEST_VERIFY EVM MASK POWER SPECTRUM 2437 DSSS-1 NON_HT BW-20 ANT3 
+nom  : 28_TEST_VERIFY_AMP_ERR_DB_S1  mesure  : 0.00  unite  : dB 
+nom  : 28_TEST_VERIFY_CABLE_LOSS_DB_RET3  mesure  : 24.59  unite  : dB 
+nom  : 28_TEST_VERIFY_DATA_RATE  mesure  : 1.00  unite  : Mbps 
+nom  : 28_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -21.13  unite  : dB 
+nom  : 28_TEST_VERIFY_EVM_DB_MAX_S1  mesure  : -21.10  unite  : dB 
+nom  : 28_TEST_VERIFY_EVM_DB_MIN_S1  mesure  : -21.18  unite  : dB 
+nom  : 28_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.88  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 28_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.88  unite  : ppm 
+nom  : 28_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.89  unite  : ppm 
+nom  : 28_TEST_VERIFY_FREQ_MHZ_LO_A_VSA1  mesure  : -11.02  unite  : MHz 
+nom  : 28_TEST_VERIFY_FREQ_MHZ_LO_B_VSA1  mesure  : -22.03  unite  : MHz 
+nom  : 28_TEST_VERIFY_FREQ_MHZ_UP_A_VSA1  mesure  : 11.02  unite  : MHz 
+nom  : 28_TEST_VERIFY_FREQ_MHZ_UP_B_VSA1  mesure  : 25.00  unite  : MHz 
+nom  : 28_TEST_VERIFY_LO_LEAKAGE_DBC_VSA1  mesure  : -36.25  unite  : dBc  val1  : -100  val2  : -20 
+nom  : 28_TEST_VERIFY_MARGIN_DB_LO_A_VSA_1  mesure  : 21.59  unite  : dB 
+nom  : 28_TEST_VERIFY_MARGIN_DB_LO_B_VSA_1  mesure  : 6.08  unite  : dB 
+nom  : 28_TEST_VERIFY_MARGIN_DB_UP_A_VSA_1  mesure  : 21.04  unite  : dB 
+nom  : 28_TEST_VERIFY_MARGIN_DB_UP_B_VSA_1  mesure  : 7.43  unite  : dB 
+nom  : 28_TEST_VERIFY_OBW_FREQ_START_MHZ_VSA_1  mesure  : -5.82  unite  : MHz 
+nom  : 28_TEST_VERIFY_OBW_FREQ_STOP_MHZ_VSA_1  mesure  : 5.70  unite  : MHz 
+nom  : 28_TEST_VERIFY_PHASE_ERR_ALL  mesure  : 0.00  unite  : Degree 
+nom  : 28_TEST_VERIFY_PHASE_ERR_S1  mesure  : 0.00  unite  : Degree 
+nom  : 28_TEST_VERIFY_PHASE_NOISE_RMS_ALL  mesure  : 0.12  unite  : Degree 
+nom  : 28_TEST_VERIFY_PK_EVM_DB_AVG_S1  mesure  : -15.48  unite  : dB 
+nom  : 28_TEST_VERIFY_PK_EVM_DB_MAX_S1  mesure  : -15.36  unite  : dB 
+nom  : 28_TEST_VERIFY_POWER_AVG_1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_DBM_RMS_MAX_VSA1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_DBM_RMS_MIN_VSA1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_MAX_1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_MIN_1  mesure  : 14.99  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 19.36  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 20.35  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 18.75  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 15.10  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 15.11  unite  : dBm 
+nom  : 28_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 15.10  unite  : dBm 
+nom  : 28_TEST_VERIFY_SYMBOL_CLK_ERR_ALL  mesure  : -1.77  unite  : ppm 
+nom  : 28_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+step : 29.TEST_VERIFY EVM MASK POWER SPECTRUM 2412 MCS11 HE_SU BW-20 ANT1 
+nom  : 29_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.03  unite  : dB 
+nom  : 29_TEST_VERIFY_CABLE_LOSS_DB_RET1  mesure  : 24.49  unite  : dB 
+nom  : 29_TEST_VERIFY_DATA_RATE  mesure  : 143.40  unite  : Mbps 
+nom  : 29_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -44.14  unite  : dB  val1  : -55  val2  : -35 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -10.47  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -10.51  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -28.40  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -30.23  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 10.39  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 10.59  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 29.38  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 46.29  unite  : MHz 
+nom  : 29_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.90  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 29_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.89  unite  : ppm 
+nom  : 29_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.90  unite  : ppm 
+nom  : 29_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -3.20  unite  : dB 
+nom  : 29_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -46.72  unite  : dB 
+nom  : 29_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 11.23  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 11.67  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 21.04  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 23.94  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 11.32  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 10.01  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 16.28  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 14.92  unite  : dB  val1  : 0 
+nom  : 29_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.17  unite  : Degree 
+nom  : 29_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.07  unite  : Degree 
+nom  : 29_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 14.62  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 14.82  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 14.52  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 14.62  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 23.25  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 23.36  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 23.03  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 14.40  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 14.60  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.30  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 14.81  unite  : dBm 
+nom  : 29_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 14.51  unite  : dBm 
+nom  : 29_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -3.79  unite  : ppm 
+nom  : 29_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 29_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.80  unite  : dB  val1  : -4  val2  : 4 
+nom  : 29_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : -1.70  unite  : dB  val1  : -6  val2  : 4 
+nom  : 29_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : 0.33  unite  : dB  val1  : -4  val2  : 4 
+nom  : 29_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : -0.25  unite  : dB  val1  : -6  val2  : 4 
+step : 30.TEST_VERIFY EVM MASK POWER SPECTRUM 2412 MCS11 HE_SU BW-20 ANT2 
+nom  : 30_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.02  unite  : dB 
+nom  : 30_TEST_VERIFY_CABLE_LOSS_DB_RET2  mesure  : 24.49  unite  : dB 
+nom  : 30_TEST_VERIFY_DATA_RATE  mesure  : 143.40  unite  : Mbps 
+nom  : 30_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -46.41  unite  : dB  val1  : -55  val2  : -35 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -10.47  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -10.51  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -29.26  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -30.08  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 10.39  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 10.59  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 29.57  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 51.05  unite  : MHz 
+nom  : 30_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.90  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 30_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.90  unite  : ppm 
+nom  : 30_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.90  unite  : ppm 
+nom  : 30_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -3.42  unite  : dB 
+nom  : 30_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -55.55  unite  : dB 
+nom  : 30_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 10.88  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 11.47  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 22.79  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 24.84  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 11.13  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 9.91  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 16.78  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 14.64  unite  : dB  val1  : 0 
+nom  : 30_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.13  unite  : Degree 
+nom  : 30_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.03  unite  : Degree 
+nom  : 30_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 14.87  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 14.94  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 14.74  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 14.87  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 23.46  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 23.46  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 23.46  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 14.65  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 14.72  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.53  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 14.94  unite  : dBm 
+nom  : 30_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 14.72  unite  : dBm 
+nom  : 30_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -4.27  unite  : ppm 
+nom  : 30_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 30_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.58  unite  : dB  val1  : -4  val2  : 4 
+nom  : 30_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : -0.58  unite  : dB  val1  : -6  val2  : 4 
+nom  : 30_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.34  unite  : dB  val1  : -4  val2  : 4 
+nom  : 30_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : -0.38  unite  : dB  val1  : -6  val2  : 4 
+step : 31.TEST_VERIFY EVM MASK POWER SPECTRUM 2412 MCS11 HE_SU BW-20 ANT3 
+nom  : 31_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.04  unite  : dB 
+nom  : 31_TEST_VERIFY_CABLE_LOSS_DB_RET3  mesure  : 24.47  unite  : dB 
+nom  : 31_TEST_VERIFY_DATA_RATE  mesure  : 143.40  unite  : Mbps 
+nom  : 31_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -44.37  unite  : dB  val1  : -55  val2  : -35 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -10.47  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -10.51  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -29.80  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -33.28  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 10.39  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 10.59  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 29.61  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 32.23  unite  : MHz 
+nom  : 31_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.92  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 31_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.92  unite  : ppm 
+nom  : 31_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.92  unite  : ppm 
+nom  : 31_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -3.37  unite  : dB 
+nom  : 31_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -53.89  unite  : dB 
+nom  : 31_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 10.52  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 11.07  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 26.18  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 25.46  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 10.14  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 9.13  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 15.99  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 14.94  unite  : dB  val1  : 0 
+nom  : 31_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.09  unite  : Degree 
+nom  : 31_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.04  unite  : Degree 
+nom  : 31_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 15.29  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 15.34  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 15.19  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 15.29  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 23.99  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 24.04  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 23.90  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 15.01  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 15.06  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.92  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 15.33  unite  : dBm 
+nom  : 31_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 15.16  unite  : dBm 
+nom  : 31_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -4.33  unite  : ppm 
+nom  : 31_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 31_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.63  unite  : dB  val1  : -4  val2  : 4 
+nom  : 31_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : -0.62  unite  : dB  val1  : -6  val2  : 4 
+nom  : 31_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : 0.32  unite  : dB  val1  : -4  val2  : 4 
+nom  : 31_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : 0.29  unite  : dB  val1  : -6  val2  : 4 
+step : 32.TEST_VERIFY EVM MASK POWER SPECTRUM 2462 MCS11 HE_SU BW-20 ANT1 
+nom  : 32_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.03  unite  : dB 
+nom  : 32_TEST_VERIFY_CABLE_LOSS_DB_RET1  mesure  : 24.36  unite  : dB 
+nom  : 32_TEST_VERIFY_DATA_RATE  mesure  : 143.40  unite  : Mbps 
+nom  : 32_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -44.35  unite  : dB  val1  : -55  val2  : -35 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -10.47  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -10.51  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -28.52  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -39.84  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 10.39  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 10.59  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 27.97  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 30.12  unite  : MHz 
+nom  : 32_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.92  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 32_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.91  unite  : ppm 
+nom  : 32_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.92  unite  : ppm 
+nom  : 32_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -3.32  unite  : dB 
+nom  : 32_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -44.17  unite  : dB 
+nom  : 32_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 10.46  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 10.88  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 18.02  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 15.23  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 11.27  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 9.95  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 18.70  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 21.58  unite  : dB  val1  : 0 
+nom  : 32_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.19  unite  : Degree 
+nom  : 32_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.05  unite  : Degree 
+nom  : 32_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 14.51  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 14.57  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 14.38  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 14.51  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 23.25  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 23.39  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 23.18  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 14.29  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 14.35  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.18  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 14.56  unite  : dBm 
+nom  : 32_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 14.39  unite  : dBm 
+nom  : 32_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -2.78  unite  : ppm 
+nom  : 32_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 32_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.29  unite  : dB  val1  : -4  val2  : 4 
+nom  : 32_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : -0.29  unite  : dB  val1  : -6  val2  : 4 
+nom  : 32_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.68  unite  : dB  val1  : -4  val2  : 4 
+nom  : 32_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : -1.36  unite  : dB  val1  : -6  val2  : 4 
+step : 33.TEST_VERIFY EVM MASK POWER SPECTRUM 2462 MCS11 HE_SU BW-20 ANT2 
+nom  : 33_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.00  unite  : dB 
+nom  : 33_TEST_VERIFY_CABLE_LOSS_DB_RET2  mesure  : 24.37  unite  : dB 
+nom  : 33_TEST_VERIFY_DATA_RATE  mesure  : 143.40  unite  : Mbps 
+nom  : 33_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -45.48  unite  : dB  val1  : -55  val2  : -35 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -10.47  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -10.51  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -29.88  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -31.33  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 10.39  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 10.59  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 28.48  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 30.08  unite  : MHz 
+nom  : 33_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.93  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 33_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.93  unite  : ppm 
+nom  : 33_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.94  unite  : ppm 
+nom  : 33_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -3.09  unite  : dB 
+nom  : 33_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -42.69  unite  : dB 
+nom  : 33_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 10.12  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 10.75  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 16.79  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 15.91  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 11.62  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 10.59  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 18.27  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 18.80  unite  : dB  val1  : 0 
+nom  : 33_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.12  unite  : Degree 
+nom  : 33_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.07  unite  : Degree 
+nom  : 33_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 14.51  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 14.52  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 14.51  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 14.51  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 23.95  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 24.16  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 23.51  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 14.30  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 14.30  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.29  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 14.52  unite  : dBm 
+nom  : 33_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 14.50  unite  : dBm 
+nom  : 33_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -3.74  unite  : ppm 
+nom  : 33_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 33_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.39  unite  : dB  val1  : -4  val2  : 4 
+nom  : 33_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.01  unite  : dB  val1  : -6  val2  : 4 
+nom  : 33_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.91  unite  : dB  val1  : -4  val2  : 4 
+nom  : 33_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : -1.63  unite  : dB  val1  : -6  val2  : 4 
+step : 34.TEST_VERIFY EVM MASK POWER SPECTRUM 2462 MCS11 HE_SU BW-20 ANT3 
+nom  : 34_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.04  unite  : dB 
+nom  : 34_TEST_VERIFY_CABLE_LOSS_DB_RET3  mesure  : 24.36  unite  : dB 
+nom  : 34_TEST_VERIFY_DATA_RATE  mesure  : 143.40  unite  : Mbps 
+nom  : 34_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -45.90  unite  : dB  val1  : -55  val2  : -35 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -10.47  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -10.51  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -29.30  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -30.55  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 10.39  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 10.59  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 25.55  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 54.02  unite  : MHz 
+nom  : 34_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.95  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 34_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.95  unite  : ppm 
+nom  : 34_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.95  unite  : ppm 
+nom  : 34_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -3.62  unite  : dB 
+nom  : 34_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -44.59  unite  : dB 
+nom  : 34_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 9.27  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 9.77  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 13.30  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 13.27  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 10.84  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 9.75  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 22.02  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 24.52  unite  : dB  val1  : 0 
+nom  : 34_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.10  unite  : Degree 
+nom  : 34_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.04  unite  : Degree 
+nom  : 34_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 15.12  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 15.12  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 15.12  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 15.12  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 23.95  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 23.96  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 23.93  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 14.84  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 14.85  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.84  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 15.11  unite  : dBm 
+nom  : 34_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 15.07  unite  : dBm 
+nom  : 34_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -3.97  unite  : ppm 
+nom  : 34_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 34_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.16  unite  : dB  val1  : -4  val2  : 4 
+nom  : 34_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : 0.02  unite  : dB  val1  : -6  val2  : 4 
+nom  : 34_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.38  unite  : dB  val1  : -4  val2  : 4 
+nom  : 34_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : -0.40  unite  : dB  val1  : -6  val2  : 4 
+step : 35.TEST_VERIFY EVM MASK POWER SPECTRUM 2442 MCS11 HE_SU BW-40 ANT1 
+nom  : 35_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.02  unite  : dB 
+nom  : 35_TEST_VERIFY_CABLE_LOSS_DB_RET1  mesure  : 24.63  unite  : dB 
+nom  : 35_TEST_VERIFY_DATA_RATE  mesure  : 286.80  unite  : Mbps 
+nom  : 35_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -43.67  unite  : dB  val1  : -55  val2  : -35 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -20.47  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -20.51  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -55.20  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -60.00  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 20.47  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 20.51  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 46.25  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 60.00  unite  : MHz 
+nom  : 35_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -3.98  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 35_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.97  unite  : ppm 
+nom  : 35_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -3.98  unite  : ppm 
+nom  : 35_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -2.35  unite  : dB 
+nom  : 35_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -39.94  unite  : dB 
+nom  : 35_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 18.21  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 16.87  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 17.84  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 22.23  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 18.45  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 17.90  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 21.12  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 23.79  unite  : dB  val1  : 0 
+nom  : 35_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.06  unite  : Degree 
+nom  : 35_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.03  unite  : Degree 
+nom  : 35_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 15.06  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 15.06  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 15.06  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 15.06  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 25.37  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 25.42  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 25.34  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 14.84  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 14.84  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 14.84  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 15.05  unite  : dBm 
+nom  : 35_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 15.05  unite  : dBm 
+nom  : 35_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -4.99  unite  : ppm 
+nom  : 35_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 35_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : -0.97  unite  : dB  val1  : -4  val2  : 4 
+nom  : 35_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : -3.65  unite  : dB  val1  : -6  val2  : 4 
+nom  : 35_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : 1.10  unite  : dB  val1  : -4  val2  : 4 
+nom  : 35_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : 1.18  unite  : dB  val1  : -6  val2  : 4 
+step : 36.TEST_VERIFY EVM MASK POWER SPECTRUM 2442 MCS11 HE_SU BW-40 ANT2 
+nom  : 36_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.00  unite  : dB 
+nom  : 36_TEST_VERIFY_CABLE_LOSS_DB_RET2  mesure  : 24.62  unite  : dB 
+nom  : 36_TEST_VERIFY_DATA_RATE  mesure  : 286.80  unite  : Mbps 
+nom  : 36_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -44.13  unite  : dB  val1  : -55  val2  : -35 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -20.47  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -38.75  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -46.25  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -60.00  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 20.47  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 20.51  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 45.86  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 60.00  unite  : MHz 
+nom  : 36_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -4.00  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 36_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -3.99  unite  : ppm 
+nom  : 36_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -4.00  unite  : ppm 
+nom  : 36_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -1.95  unite  : dB 
+nom  : 36_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -50.90  unite  : dB 
+nom  : 36_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 18.55  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 16.96  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 17.74  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 22.68  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 18.55  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 18.03  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 21.18  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 25.26  unite  : dB  val1  : 0 
+nom  : 36_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.10  unite  : Degree 
+nom  : 36_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.05  unite  : Degree 
+nom  : 36_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 15.30  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 15.31  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 15.30  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 15.30  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 25.60  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 25.66  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 25.57  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 15.08  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 15.09  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 15.08  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 15.31  unite  : dBm 
+nom  : 36_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 15.29  unite  : dBm 
+nom  : 36_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -5.09  unite  : ppm 
+nom  : 36_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 36_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : -1.20  unite  : dB  val1  : -4  val2  : 4 
+nom  : 36_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : -4.05  unite  : dB  val1  : -6  val2  : 4 
+nom  : 36_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : 1.03  unite  : dB  val1  : -4  val2  : 4 
+nom  : 36_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : 1.08  unite  : dB  val1  : -6  val2  : 4 
+step : 37.TEST_VERIFY EVM MASK POWER SPECTRUM 2442 MCS11 HE_SU BW-40 ANT3 
+nom  : 37_TEST_VERIFY_AMP_ERR_DB_VSA1  mesure  : 0.01  unite  : dB 
+nom  : 37_TEST_VERIFY_CABLE_LOSS_DB_RET3  mesure  : 24.63  unite  : dB 
+nom  : 37_TEST_VERIFY_DATA_RATE  mesure  : 286.80  unite  : Mbps 
+nom  : 37_TEST_VERIFY_EVM_DB_AVG_S1  mesure  : -45.63  unite  : dB  val1  : -55  val2  : -35 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_LO_A_VSA1  mesure  : -20.47  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_LO_B_VSA1  mesure  : -20.51  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_LO_C_VSA1  mesure  : -48.13  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_LO_D_VSA1  mesure  : -60.00  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_UP_A_VSA1  mesure  : 20.47  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_UP_B_VSA1  mesure  : 20.51  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_UP_C_VSA1  mesure  : 59.45  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_AT_MARGIN_UP_D_VSA1  mesure  : 60.00  unite  : MHz 
+nom  : 37_TEST_VERIFY_FREQ_ERROR_AVG  mesure  : -4.01  unite  : ppm  val1  : -15  val2  : 15 
+nom  : 37_TEST_VERIFY_FREQ_ERROR_MAX  mesure  : -4.01  unite  : ppm 
+nom  : 37_TEST_VERIFY_FREQ_ERROR_MIN  mesure  : -4.02  unite  : ppm 
+nom  : 37_TEST_VERIFY_LEAST_MARGIN_VALUE_VSA1  mesure  : -1.49  unite  : dB 
+nom  : 37_TEST_VERIFY_LO_LEAKAGE_VSA1  mesure  : -40.33  unite  : dB 
+nom  : 37_TEST_VERIFY_MARGIN_DB_LO_A_VSA1  mesure  : 17.36  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_MARGIN_DB_LO_B_VSA1  mesure  : 15.64  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_MARGIN_DB_LO_C_VSA1  mesure  : 18.19  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_MARGIN_DB_LO_D_VSA1  mesure  : 23.34  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_MARGIN_DB_UP_A_VSA1  mesure  : 20.10  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_MARGIN_DB_UP_B_VSA1  mesure  : 19.40  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_MARGIN_DB_UP_C_VSA1  mesure  : 21.38  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_MARGIN_DB_UP_D_VSA1  mesure  : 23.72  unite  : dB  val1  : 0 
+nom  : 37_TEST_VERIFY_PHASE_ERR_VSA1  mesure  : -0.08  unite  : Degree 
+nom  : 37_TEST_VERIFY_PHASE_NOISE_RMS_ALL_VSA1  mesure  : 0.01  unite  : Degree 
+nom  : 37_TEST_VERIFY_POWER_DBM_RMS_AVG_S1  mesure  : 15.39  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_DBM_RMS_MAX_S1  mesure  : 15.41  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_DBM_RMS_MIN_S1  mesure  : 15.39  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_DBM_RMS_S1_VSA1  mesure  : 15.39  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_PEAK_AVG_VSA1  mesure  : 25.93  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_PEAK_MAX_VSA1  mesure  : 25.96  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_PEAK_MIN_VSA1  mesure  : 25.85  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_PRE_AVG_VSA1  mesure  : 15.12  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_PRE_MAX_VSA1  mesure  : 15.12  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_PRE_MIN_VSA1  mesure  : 15.11  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_RMS_MAX_VSA1  mesure  : 15.40  unite  : dBm 
+nom  : 37_TEST_VERIFY_POWER_RMS_MIN_VSA1  mesure  : 15.38  unite  : dBm 
+nom  : 37_TEST_VERIFY_SYMBOL_CLOCK_ERR  mesure  : -4.86  unite  : ppm 
+nom  : 37_TEST_VERIFY_TX_POWER_DBM  mesure  : 15.00  unite  : dBm 
+nom  : 37_TEST_VERIFY_VALUE_LO_A_VSA1  mesure  : 0.44  unite  : dB  val1  : -4  val2  : 4 
+nom  : 37_TEST_VERIFY_VALUE_LO_B_VSA1  mesure  : -3.20  unite  : dB  val1  : -6  val2  : 4 
+nom  : 37_TEST_VERIFY_VALUE_UP_A_VSA1  mesure  : -0.92  unite  : dB  val1  : -4  val2  : 4 
+nom  : 37_TEST_VERIFY_VALUE_UP_B_VSA1  mesure  : -4.51  unite  : dB  val1  : -6  val2  : 4 

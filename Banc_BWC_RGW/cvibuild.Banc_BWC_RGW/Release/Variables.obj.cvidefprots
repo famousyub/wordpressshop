@@ -1,0 +1,32 @@
+[VAR_Get]
+Class="Function"
+Prototype="int VAR_Get(T_VARIABLE *tVariablesModele, int nbVariablesModele, T_VARIABLES *tVariables, struct __SCProduction_GestionProductions *instSCProduction, char *numSerie, char *codeProduit, char *indiceProduit, char *nomPoste, char *strErreurMessage);"
+
+[VAR_Set]
+Class="Function"
+Prototype="int VAR_Set(T_VARIABLES *tVariables, struct __SCProduction_GestionProductions *instSCProduction, char *codeProduit, char *indiceProduit, char *numSerie, char *strErreurMessage);"
+
+[VAR_Raz]
+Class="Function"
+Prototype="int VAR_Raz(T_VARIABLES *tVariables);"
+
+[VAR_Delete]
+Class="Function"
+Prototype="int VAR_Delete(T_VARIABLES *tVariables);"
+
+[VAR_Print]
+Class="Function"
+Prototype="int VAR_Print(T_VARIABLES *tVariables, char *strPrint, char *strErreurMessage);"
+
+[VAR_SetString]
+Class="Function"
+Prototype="int VAR_SetString(T_VARIABLES *tVariables, int idxVariable, char *valeur);"
+
+[VAR_GetString]
+Class="Function"
+Prototype="int VAR_GetString(T_VARIABLES *tVariables, int index, char *valeur);"
+
+[VAR_GestionTableau]
+Class="Function"
+Prototype="int VAR_GestionTableau(int nItfe, T_TCOM_BASE *tcomBase, T_VARIABLES *tVariables, char *numSerie, char *Ressource, char *Operation, int iAction, char *strErreurMessage);"
+

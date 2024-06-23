@@ -1,0 +1,52 @@
+	if ( (gSlot[nItfe].ihmSlot.nEtat == ETAT_OPEN_CAISSON) && (gNPAbort == FALSE) )
+		{   
+			status = FCT_Comm_Caisson_Open(nItfe);
+			IHM_GestCtrlPnl (nItfe);
+			if (status==0)
+			{
+				FCT_AfficheInfo (nItfe, IHM_MODE_TRACE_TXTBOX|IHM_MODE_TRACE_LOG, 999, "Open Caisson");
+				gSlot[nItfe].ihmSlot.nEtat = ETAT_ATTENTE_FERMETURE_CAISSON;
+				//strncpy (strErreurMessage, "",TAILLE_MAX-1);
+			}
+			else
+			{
+				FCT_AfficheInfo (nItfe, IHM_MODE_TRACE_TXTBOX|IHM_MODE_TRACE_LOG, 999,"Opening Caisson KO");
+
+				//resultatTest = FALSE;
+				gSlot[nItfe].ihmSlot.nEtat = ETAT_ATTENTE_FERMETURE_CAISSON;
+				//***
+				strncpy (message_TXT_info, strErreurMessage,TAILLE_MAX-1);
+				//strncpy (strErreurMessage, "",TAILLE_MAX-1);
+				IHM_GestCtrlPnl (nItfe);
+				
+			}
+			if (gNPAbort==TRUE)
+
+
+
+
+
+if ( (gSlot[nItfe].ihmSlot.nEtat == ETAT_ATTENTE_FERMETURE_CAISSON) && (gNPAbort == FALSE))
+		{
+			IHM_GestCtrlPnl (nItfe);
+
+            SetCtrlVal (gSlot[nItfe].ihmSlot.panelMain, PNL_MAIN_TXT_INFO, msg_erreur_persiste);
+			if (FCT_Comm_Attente_Fermeture_Caisson(nItfe) == 0)  /*FCT_Comm_Attente_Retrait_Decoduer*/
+			{
+				FCT_AfficheInfo (nItfe, IHM_MODE_TRACE_TXTBOX|IHM_MODE_TRACE_LOG, 999, IHM_STR_INFO, " Caisson Fermée  ");
+				gSlot[nItfe].ihmSlot.nEtat = ETAT_DECODEUR_PRESENT;
+			}
+			else
+			{
+
+				FCT_AfficheInfo (nItfe, IHM_MODE_TRACE_TXTBOX|IHM_MODE_TRACE_LOG, 999, IHM_STR_INFO, " Erreur fermeture caisson  ");
+				//resultatTest = 0;
+				gSlot[nItfe].ihmSlot.nEtat = ETAT_PERTE_PING;
+				//strncpy (strErreurMessage, "",TAILLE_MAX-1);
+				IHM_GestCtrlPnl (nItfe);
+			}
+			if (gNPAbort==TRUE)
+				gSlot[nItfe].ihmSlot.nEtat = ETAT_STOP;
+				IHM_GestCtrlPnl (nItfe);
+
+		}

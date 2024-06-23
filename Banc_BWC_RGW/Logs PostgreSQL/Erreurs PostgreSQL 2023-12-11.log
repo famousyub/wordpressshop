@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 11/12/2023 08:53:35
+Poste     : EZR-LAP558468
+Matricule : G558468
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 11/12/2023 09:16:18
+Poste     : EZR-LAP558468
+Matricule : G558468
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 11/12/2023 10:55:59
+Poste     : EZR-LAP558468
+Matricule : G558468
+Code      : -1
+Message   : Impossible d'écrire les données sur la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 11/12/2023 12:01:33
+Poste     : EZR-LAP558468
+Matricule : G558468
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 11/12/2023 14:46:58
+Poste     : EZR-LAP558468
+Matricule : G558468
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+

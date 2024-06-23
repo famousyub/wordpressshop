@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 23/09/2022 10:53:52
+Poste     : EZR-BBS27341
+Matricule : atel_rgw
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 23/09/2022 11:19:33
+Poste     : EZR-BBS27341
+Matricule : atel_rgw
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 23/09/2022 11:57:42
+Poste     : EZR-BBS27341
+Matricule : atel_rgw
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+

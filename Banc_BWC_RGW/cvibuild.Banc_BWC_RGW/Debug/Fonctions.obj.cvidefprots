@@ -1,0 +1,428 @@
+[FCT_TracaBdd]
+Class="Function"
+Prototype="int FCT_TracaBdd(int nItfe);"
+
+[FCT_TracaBddKo]
+Class="Function"
+Prototype="int FCT_TracaBddKo(int nItfe);"
+
+[FCT_AutorisationPassage]
+Class="Function"
+Prototype="int FCT_AutorisationPassage(int nItfe, char *strErreurMessage);"
+
+[FCT_PropietesEtatInit]
+Class="Function"
+Prototype="int FCT_PropietesEtatInit(int nItfe);"
+
+[FCT_AfficheInfo]
+Class="Function"
+Prototype="void FCT_AfficheInfo(int nItfe, int mode, int codeErr, ...);"
+
+[FCT_GetVersionInfo]
+Class="Function"
+Prototype="void FCT_GetVersionInfo(char *filePath, char *strVersion);"
+
+[FCT_GetIdPoste]
+Class="Function"
+Prototype="void FCT_GetIdPoste(char *sIDPoste, int maxIdSize);"
+
+[FCT_AfficheVersionAppli]
+Class="Function"
+Prototype="void FCT_AfficheVersionAppli(char *appName, int panelHnd);"
+
+[FCT_RecupCommandeTT]
+Class="Function"
+Prototype="int FCT_RecupCommandeTT(int nItfe, int idPort, char *BufferAttendu, char *chBufferLu, unsigned long *taille_recu, int TimeOut, short *erreur, long *codeErreur, char *messagErreur);"
+
+[FCT_EnvoiCommandeTT]
+Class="Function"
+Prototype="int FCT_EnvoiCommandeTT(int nItfe, int idPort, char *BufferCommande, int AffichageTrace, short *erreur, long *codeErreur, char *messagErreur);"
+
+[FCT_EnvoiCommandeTTAvecVerifRetour]
+Class="Function"
+Prototype="int FCT_EnvoiCommandeTTAvecVerifRetour(int nItfe, int idPort, char *BufferCommande, char *BufferAttendu, char *chBufferLu, unsigned long *taille_recu, int TimeOut, int AffichageTrace, short *erreur, long *codeErreur, char *messagErreur);"
+
+[FCT_RecuperationVariableTraca]
+Class="Function"
+Prototype="int FCT_RecuperationVariableTraca(int nItfe, char *strErreurMessage);"
+
+[FCT_RechercheTag]
+Class="Function"
+Prototype="int FCT_RechercheTag(char *chBuffer, char *chTag, char *chRetour);"
+
+[FCT_MasqueValidation]
+Class="Function"
+Prototype="int FCT_MasqueValidation(char *chMasque, char *chValeur);"
+
+[FCT_SupprimerTag]
+Class="Function"
+Prototype="void FCT_SupprimerTag(char *chValeur, char *chTag);"
+
+[FCT_RemplacerTag]
+Class="Function"
+Prototype="void FCT_RemplacerTag(char *chValeur, int nTaille, char *chTagOld, char *chTagNew);"
+
+[FCT_ProduitPrint]
+Class="Function"
+Prototype="int FCT_ProduitPrint(T_POSTE_PRODUIT *tPosteProduit, char *strPrint, char *strMessageErreur);"
+
+[FCT_TracaInit]
+Class="Function"
+Prototype="int FCT_TracaInit(T_VARIABLES_TRACA *tVariablesTraca);"
+
+[FCT_TracaRaz]
+Class="Function"
+Prototype="int FCT_TracaRaz(T_VARIABLES_TRACA *tVariablesTraca);"
+
+[FCT_TracaPrint]
+Class="Function"
+Prototype="int FCT_TracaPrint(T_VARIABLES_TRACA *tVariablesTraca, char *strPrint, char *strMessageErreur);"
+
+[FCT_InfoMemoire]
+Class="Function"
+Prototype="void FCT_InfoMemoire(int nItfe, char *step);"
+
+[FCT_ProduitsRaz]
+Class="Function"
+Prototype="int FCT_ProduitsRaz(T_POSTE_PRODUITS *posteProduits);"
+
+[FCT_clean_atapi]
+Class="Function"
+Prototype="int FCT_clean_atapi(int nItfe, int AffichageTrace, char *messagErreur);"
+
+[FCT_ecoute_com]
+Class="Function"
+Prototype="int FCT_ecoute_com(int nItfe, int AffichageTrace, char *messagErreur);"
+
+[COM_RechercheTag]
+Class="Function"
+Prototype="int COM_RechercheTag(int numSlot, unsigned char *tag, unsigned long lngTag, unsigned char carFinTag, unsigned char *tagSuite, unsigned long *lngTagSuite, unsigned long *posTag, int *tagTrouv);"
+
+[FCT_ChercherTag]
+Class="Function"
+Prototype="int FCT_ChercherTag(int nItfe, char *Tag, int iTimeOut);"
+
+[FCT_RecupSnSfin]
+Class="Function"
+Prototype="int FCT_RecupSnSfin(int nItfe, char *Tag, char *Sn);"
+
+[FCT_VerificationSFC]
+Class="Function"
+Prototype="int FCT_VerificationSFC(int nItfe, char *SFC, char *CodeProduit, char *IndiceProduit, char *ReferenceOF, char *OF_SAPME, char *strMessage);"
+
+[FCT_VerificationSFC_MultiOF_CMS]
+Class="Function"
+Prototype="int FCT_VerificationSFC_MultiOF_CMS(int nItfe, char *SFC, char *CodeProduit, char *IndiceProduit, char *strMessage);"
+
+[FCT_VerificationVariables]
+Class="Function"
+Prototype="int FCT_VerificationVariables(int nItfe, char *chMessErreur);"
+
+[FCT_LectureNumserieGateWay]
+Class="Function"
+Prototype="int FCT_LectureNumserieGateWay(int nItfe, char *chMessageErreur);"
+
+[FCT_Verification_version_Firmware]
+Class="Function"
+Prototype="int FCT_Verification_version_Firmware(int nItfe, char *chMessageErreur);"
+
+[Test_button]
+Class="Function"
+Prototype="int Test_button(int HandleTelnet, char cmd[1024], int TimeOut, char Tag[1024], char signal[64], char sMessage[50001]);"
+
+[OuvertureTelnet]
+Class="Function"
+Prototype="int OuvertureTelnet(char sIPDUT[255], char sLogin[255], char sPreFixLogin[255], char sSuFixLogin[255], char sPassword[255], char sSuFixPassword[255], int TimeOut);"
+
+[LectureDFAviaTelnet]
+Class="Function"
+Prototype="int LectureDFAviaTelnet(int HandleTelnet, char *SendCmd, int LengthDFA, int TimeOutms, char *sDFALue, char *sMessage);"
+
+[Test_button_RC]
+Class="Function"
+Prototype="int Test_button_RC(int HandleTelnet, char cmd[1024], int TimeOut, char Tag[1024], char signal[64], int IndiceCMMO, char sMessage[50001]);"
+
+[AFficheMsgErreur]
+Class="Function"
+Prototype="int AFficheMsgErreur(int iErreur, char *sMessage);"
+
+[TelnetOpenSession]
+Class="Function"
+Prototype="int TelnetOpenSession(int *HandleTelnet, char *IPFAST, int NumPort, char *Login, char *TagLogin, char *Psw, char *TagPassword, char *Response);"
+
+[FCT_CloseConnexionTelnet]
+Class="Function"
+Prototype="int FCT_CloseConnexionTelnet(int nItfe, char *chMessageErreur, int HandleTelnet);"
+
+[TelnetCloseSession]
+Class="Function"
+Prototype="int TelnetCloseSession(int HandleTelnet, char *Response);"
+
+[TelnetCloseSession_slot2]
+Class="Function"
+Prototype="int TelnetCloseSession_slot2(int HandleTelnet, char *Response);"
+
+[FCT_AttenteDemarrageGateWay]
+Class="Function"
+Prototype="int FCT_AttenteDemarrageGateWay(int nItfe, char *messagErreur);"
+
+[FCT_AttentePertePingGateWay]
+Class="Function"
+Prototype="int FCT_AttentePertePingGateWay(int nItfe, char *messagErreur);"
+
+[FCT_Assemblage_fille_mere]
+Class="Function"
+Prototype="int FCT_Assemblage_fille_mere(int nItfe, char *strErreurMessage);"
+
+[FCT_Initialisation]
+Class="Function"
+Prototype="int FCT_Initialisation(int nItfe, char *chMessageErreur);"
+
+[FCT_Finalisation]
+Class="Function"
+Prototype="int FCT_Finalisation(int nItfe, char *chMessageErreur);"
+
+[FCT_Config_Wifi_2G]
+Class="Function"
+Prototype="int FCT_Config_Wifi_2G(int nItfe, char *chMessageErreur);"
+
+[FCT_Config_Wifi_5G]
+Class="Function"
+Prototype="int FCT_Config_Wifi_5G(int nItfe, char *chMessageErreur);"
+
+[FCT_Config_BT]
+Class="Function"
+Prototype="int FCT_Config_BT(int nItfe, char *chMessageErreur);"
+
+[FCT_Test_Bouton]
+Class="Function"
+Prototype="int FCT_Test_Bouton(int nItfe, char *chMessageErreur);"
+
+[FCT_Config_IR]
+Class="Function"
+Prototype="int FCT_Config_IR(int nItfe, char *chMessageErreur);"
+
+[FCT_Test_IR]
+Class="Function"
+Prototype="int FCT_Test_IR(int nItfe, char *chMessageErreur);"
+
+[FCT_Send_IR]
+Class="Function"
+Prototype="int FCT_Send_IR(int nItfe, char *chMessageErreur);"
+
+[FCT_reboot]
+Class="Function"
+Prototype="int FCT_reboot(int nItfe, char *chMessageErreur);"
+
+[FCT_Mesure_Wifi_2G]
+Class="Function"
+Prototype="int FCT_Mesure_Wifi_2G(int nItfe, char *chMessageErreur);"
+
+[FCT_Mesure_Wifi_5G]
+Class="Function"
+Prototype="int FCT_Mesure_Wifi_5G(int nItfe, char *chMessageErreur);"
+
+[FCT_Mesure_BT]
+Class="Function"
+Prototype="int FCT_Mesure_BT(int nItfe, char *chMessageErreur);"
+
+[FCT_ConfigMode]
+Class="Function"
+Prototype="int FCT_ConfigMode(int nItfe, char *strErreurMessage);"
+
+[FCT_ConfigSSID]
+Class="Function"
+Prototype="int FCT_ConfigSSID(int nItfe, char *strErreurMessage);"
+
+[FCT_VerifAssociationDongle]
+Class="Function"
+Prototype="int FCT_VerifAssociationDongle(int nItfe, char *strErreurMessage);"
+
+[FCT_RecupRSSI]
+Class="Function"
+Prototype="int FCT_RecupRSSI(int nItfe, char *strErreurMessage);"
+
+[FCT_SuspensionDiffusionWifi]
+Class="Function"
+Prototype="int FCT_SuspensionDiffusionWifi(int nItfe, char *strErreurMessage);"
+
+[FCT_CmdTTExtract]
+Class="Function"
+Prototype="int FCT_CmdTTExtract(char *cmdIn, T_TAB_CMD *cmdOut);"
+
+[FCT_CmdExecution]
+Class="Function"
+Prototype="int FCT_CmdExecution(int nItfe, int iHandleTelnet, T_CMD *cmdTT, char ***info, int *nbInfo, int timeout);"
+
+[FCT_EnvoieLogBdd]
+Class="Function"
+Prototype="int FCT_EnvoieLogBdd(int nItfe);"
+
+[FCT_CmdComExecutionV5]
+Class="Function"
+Prototype="int FCT_CmdComExecutionV5(int nItfe, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+
+[FCT_CmdComExecutionV3]
+Class="Function"
+Prototype="int FCT_CmdComExecutionV3(int nItfe, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+
+[FCT_CmdComExtract]
+Class="Function"
+Prototype="int FCT_CmdComExtract(char *cmdIn, T_TAB_CMD *cmdOut);"
+
+[FCT_OuverturePortsCOM]
+Class="Function"
+Prototype="int FCT_OuverturePortsCOM(int nItfe);"
+
+[FCT_RemplacerEscapeSequence]
+Class="Function"
+Prototype="void FCT_RemplacerEscapeSequence(char *chValeur);"
+
+[FCT_ControleVersion]
+Class="Function"
+Prototype="int FCT_ControleVersion();"
+
+[FCT_Lecture_Version]
+Class="Function"
+Prototype="int FCT_Lecture_Version(int nItfe, char *chMessageErreur);"
+
+[FCT_FermeturePortsCOM]
+Class="Function"
+Prototype="int FCT_FermeturePortsCOM(int nItfe, char *strErreurMessage);"
+
+[TST_Leds_Feasa]
+Class="Function"
+Prototype="int TST_Leds_Feasa(int nItfe, char *chMessageErreur);"
+
+[FCT_CmdComExecutionInstSansRetour]
+Class="Function"
+Prototype="int FCT_CmdComExecutionInstSansRetour(int nItfe, int idPort, int ParamRX, int ParamTX, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+
+[Connect_Switch_SP8T]
+Class="Function"
+Prototype="int Connect_Switch_SP8T(int nItfe, char *chMessageErreur);"
+
+[FCT_Switch]
+Class="Function"
+Prototype="int FCT_Switch(int nItfe, char *chMessageErreur);"
+
+[FCT_CmdComExecutionV4]
+Class="Function"
+Prototype="int FCT_CmdComExecutionV4(int nItfe, int HandleTelnet, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+
+[FCT_Switch_SP8T]
+Class="Function"
+Prototype="int FCT_Switch_SP8T(int nItfe, char *chMessageErreur, char *PortSwitch);"
+
+[FCT_Comm_Attente_Fermeture_Caisson]
+Class="Function"
+Prototype="int FCT_Comm_Attente_Fermeture_Caisson(int nItfe);"
+
+[FCT_Comm_Caisson_Open]
+Class="Function"
+Prototype="int FCT_Comm_Caisson_Open(int nItfe);"
+
+[FCT_Comm_Init_Caisson]
+Class="Function"
+Prototype="int FCT_Comm_Init_Caisson(int nItfe);"
+
+[FCT_Check_Driver_wifi_2Ghz]
+Class="Function"
+Prototype="int FCT_Check_Driver_wifi_2Ghz(int nItfe, char *chMessageErreur);"
+
+[FCT_Update_Driver_wifi_2Ghz]
+Class="Function"
+Prototype="int FCT_Update_Driver_wifi_2Ghz(int nItfe, char *chMessageErreur);"
+
+[FCT_Check_Driver_BT]
+Class="Function"
+Prototype="int FCT_Check_Driver_BT(int nItfe, char *chMessageErreur);"
+
+[FCT_Update_Driver_BT]
+Class="Function"
+Prototype="int FCT_Update_Driver_BT(int nItfe, char *chMessageErreur);"
+
+[FCT_UPDATE_IP_DUT]
+Class="Function"
+Prototype="int FCT_UPDATE_IP_DUT(int nItfe, char *chMessageErreur);"
+
+[FCT_TEST_wifi_2Ghz]
+Class="Function"
+Prototype="int FCT_TEST_wifi_2Ghz(int nItfe, char *chMessageErreur);"
+
+[FCT_TEST_BT]
+Class="Function"
+Prototype="int FCT_TEST_BT(int nItfe, char *chMessageErreur);"
+
+[FCT_PingSTB]
+Class="Function"
+Prototype="int FCT_PingSTB(int nItfe, char *messagErreur);"
+
+[FCT_Check_Driver_wifi_5Ghz]
+Class="Function"
+Prototype="int FCT_Check_Driver_wifi_5Ghz(int nItfe, char *chMessageErreur);"
+
+[FCT_Update_Driver_wifi_5Ghz]
+Class="Function"
+Prototype="int FCT_Update_Driver_wifi_5Ghz(int nItfe, char *chMessageErreur);"
+
+[FCT_TEST_wifi_5Ghz]
+Class="Function"
+Prototype="int FCT_TEST_wifi_5Ghz(int nItfe, char *chMessageErreur);"
+
+[FCT_TEST_wifi_6Ghz]
+Class="Function"
+Prototype="int FCT_TEST_wifi_6Ghz(int nItfe, char *chMessageErreur);"
+
+[FCT_AttenteDemarrageGateWay_telnet]
+Class="Function"
+Prototype="int FCT_AttenteDemarrageGateWay_telnet(int nItfe, char *messagErreur);"
+
+[FCT_CMD_PingGateWay]
+Class="Function"
+Prototype="int FCT_CMD_PingGateWay(int nItfe, char *messagErreur);"
+
+[FCT_Rcup_Mesure_log]
+Class="Function"
+Prototype="int FCT_Rcup_Mesure_log(int nItfe, FILE *fichier, char *tabMesure, char *chMessageErreur);"
+
+[FCT_OpenConnexionTelnet]
+Class="Function"
+Prototype="int FCT_OpenConnexionTelnet(int nItfe, char *messagErreur);"
+
+[FCT_EnregistrementMesure]
+Class="Function"
+Prototype="int FCT_EnregistrementMesure(int nItfe);"
+
+[FCT_EnregistrementMesureLog]
+Class="Function"
+Prototype="int FCT_EnregistrementMesureLog(int nItfe, char **pTableauMesuresTemps);"
+
+[FCT_Flachage]
+Class="Function"
+Prototype="int FCT_Flachage(int nItfe, char *chMessageErreur, char *SFC_Flache);"
+
+[FCT_GenerationDFA]
+Class="Function"
+Prototype="int FCT_GenerationDFA(int nItfe, char *strErreurMessage);"
+
+[SAPME_GenerationDFA]
+Class="Function"
+Prototype="int SAPME_GenerationDFA(int nItfe, T_TCOM_BASE *tcomBase, char *REF, int *iExistenceSFC, char *strErreurMessage);"
+
+[FCT_EcritureDFA]
+Class="Function"
+Prototype="int FCT_EcritureDFA(int nItfe, char *chMessageErreur);"
+
+[FCT_Activation_DHCP]
+Class="Function"
+Prototype="int FCT_Activation_DHCP(int nItfe, char *chMessageErreur);"
+
+[FCT_Desactivation_DHCP]
+Class="Function"
+Prototype="int FCT_Desactivation_DHCP(int nItfe, char *chMessageErreur);"
+
+[FCT_Remonte_SFTP]
+Class="Function"
+Prototype="int FCT_Remonte_SFTP(int nItfe, char *chMessageErreur);"
+

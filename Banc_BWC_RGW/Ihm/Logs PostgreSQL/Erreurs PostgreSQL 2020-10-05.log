@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/10/2020 11:18:19
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/10/2020 11:18:40
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/10/2020 11:54:29
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/10/2020 12:37:29
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : The Connection is broken.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/10/2020 12:44:57
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 05/10/2020 13:15:56
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -1
+Message   : Une erreur d'E/S s'est produite.
+Requete   : DeconnexionBase
+

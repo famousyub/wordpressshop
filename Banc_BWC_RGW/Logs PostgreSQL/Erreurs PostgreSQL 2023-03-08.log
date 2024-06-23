@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 08/03/2023 11:52:27
+Poste     : EZR-LAP558412
+Matricule : G558412
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+

@@ -1,0 +1,668 @@
+[Initialize_SCProduction]
+Class="Function"
+Prototype="int Initialize_SCProduction();"
+
+[Close_SCProduction]
+Class="Function"
+Prototype="int Close_SCProduction();"
+
+[SCProduction_GestionProductions__Create]
+Class="Function"
+Prototype="int SCProduction_GestionProductions__Create(struct __SCProduction_GestionProductions **__instance, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementTableauTestsMesures]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementTableauTestsMesures(struct __SCProduction_GestionProductions *__instance, char *sNumSerie, char *operation, char *ressource, char *OF, char **stabMesures, int __stabMesuresLength1, int __stabMesuresLength2, int *bErreurSurvenue, char **sErreurMessage, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDetailleBom]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDetailleBom(struct __SCProduction_GestionProductions *__instance, char *Bom, char *indice, char ***TabbomComponentList, int *__TabbomComponentListLength, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_findInventory]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_findInventory(struct __SCProduction_GestionProductions *__instance, char *inventoryId, char **itemRef, char **originalQty, char **qtyOnHand, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_AjoutStockComposant]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AjoutStockComposant(struct __SCProduction_GestionProductions *__instance, char *strCodeComposant, char *strValeur, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_PASSE_WITH_NEXT_OPERATION]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_PASSE_WITH_NEXT_OPERATION(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *Ressource, char *Operation, char *indiceOp, char *next_step, char **TapProperty, int __TapPropertyLength, int *bResult, char **next_operation, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_AjoutStockComposant_Tableau]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AjoutStockComposant_Tableau(struct __SCProduction_GestionProductions *__instance, char **tabAddInventory, int __tabAddInventoryLength1, int __tabAddInventoryLength2, int *blnResultat, char **strMessageRetour, char **codeDeRetour, void **__exception);"
+
+[SCProduction_GestionProductions_GenerationSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GenerationSFC(struct __SCProduction_GestionProductions *__instance, char *strCodeComposant, char *indice, char **SFC, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_GenerationSFCdepuisOF]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GenerationSFCdepuisOF(struct __SCProduction_GestionProductions *__instance, char *strOrdreFab, char **strsfcRef, char **sMessageRetour, int *blnResultat, void **__exception);"
+
+[SCProduction_GestionProductions_UpdateOrInsertPropertyPKT]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_UpdateOrInsertPropertyPKT(struct __SCProduction_GestionProductions *__instance, char *SerialNumber, char *PropertyName, char *PropertyValue, int *STATUS, char **Response, void **__exception);"
+
+[SCProduction_GestionProductions_GenerationSFCdepuisOFV2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GenerationSFCdepuisOFV2(struct __SCProduction_GestionProductions *__instance, char *strOrdreFab, char **strsfcRef, char **sMessageRetour, int *blnResultat, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationConfigueProduit]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationConfigueProduit(struct __SCProduction_GestionProductions *__instance, char *Article, char *Version, char ***dcParameterList, int *__dcParameterListLength1, int *__dcParameterListLength2, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationSequenceFromBOM]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationSequenceFromBOM(struct __SCProduction_GestionProductions *__instance, char *Bom, char *indice, char *componentContext, double *sequence, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationComposantdepuisSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationComposantdepuisSFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char *composant, char *indice, char **ResultCode, char **InventoryId, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementNumSerie]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementNumSerie(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *strIndiceNumSerie, char *strCodeProduit, char *strIndiceProduit, char *strCodeStatutNumserie, char *strObservation, long long *lngId_NumSerie, int *blnErreurSurvenue, int *intErreurCode, char **strErreurMessage, char **strErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementNonConformites]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementNonConformites(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *Ressource, char **stabNonconformit_s, int __stabNonconformit_sLength1, int __stabNonconformit_sLength2, int *bResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementNonConformitesSansRoutage]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementNonConformitesSansRoutage(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *Ressource, char **stabNonconformit_s, int __stabNonconformit_sLength1, int __stabNonconformit_sLength2, int *bResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_removeSlotGroup]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_removeSlotGroup(struct __SCProduction_GestionProductions *__instance, char *Resource, char *SlotGroup, char *indiceSlot, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementProprieteNumSerie]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementProprieteNumSerie(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *strNomPropriete, char *strValeurPropriete, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementProprieteNumSerieTR]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementProprieteNumSerieTR(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *strCodeProduit, char *strIndiceProduit, char *strNomPropriete, char *strValeurPropriete, long long *lngId_Propriete_NumSerie, int *blnErreurSurvenue, int *intErreurCode, char **strErreurMessage, char **strErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementProprietesNumSerie]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementProprietesNumSerie(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char **TabPropriete, int __TabProprieteLength1, int __TabProprieteLength2, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementProprietesNumSeries]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementProprietesNumSeries(struct __SCProduction_GestionProductions *__instance, char **strNumSerie, int __strNumSerieLength, char **TabPropriete, int __TabProprieteLength1, int __TabProprieteLength2, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecupererStatProduitAvecFiltre]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecupererStatProduitAvecFiltre(struct __SCProduction_GestionProductions *__instance, char *startDate, char *endDate, char *Operation, char *Line, char ***listOfProductsWithStats, int *__listOfProductsWithStatsLength1, int *__listOfProductsWithStatsLength2, int *blnResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecupererStatProduitAvecFiltreRessource]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecupererStatProduitAvecFiltreRessource(struct __SCProduction_GestionProductions *__instance, char *startDate, char *endDate, char *Operation, char *ressource, char ***listOfProductsWithStats, int *__listOfProductsWithStatsLength1, int *__listOfProductsWithStatsLength2, int *blnResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_AjoutStockComposantAvecQuantite]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AjoutStockComposantAvecQuantite(struct __SCProduction_GestionProductions *__instance, char *strCodeComposant, char *strValeur, double quantite, char *Fournisseur, char *Lot_fournisseur, char *Magasin_de_stockage_ERP, char *Ref_fabricant, char *VENDOR_DATA_CODE, char *Fabricant, char *Materiel_Document, char *Date_Recep_ERP, char *Code_particulier, char *Emplacement, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_UpdateStockComposant]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_UpdateStockComposant(struct __SCProduction_GestionProductions *__instance, char *strCodeComposant, char *strValeur, double quantite, char *Fournisseur, char *Lot_fournisseur, char *Magasin_de_stockage_ERP, char *Ref_fabricant, char *VENDOR_DATA_CODE, char *Fabricant, char *Materiel_Document, char *Date_Recep_ERP, char *Code_particulier, char *Emplacement, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_AssembleComposant]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AssembleComposant(struct __SCProduction_GestionProductions *__instance, char *strSFC, char *operation, char *Ressource, char *strComposant, char *identifiant, char *NomAttribute, char *strLibelle, int *blnResultat, char **EtatAssemblage, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_AssemblageComposant_v2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AssemblageComposant_v2(struct __SCProduction_GestionProductions *__instance, char *sfc, char *operation, char *NomAttribute, char *value, char *bom, char *indicebom, char *sequebcebom, char *codecomposant, char *indicecomposant, char **EtatAssemblage, int *blnResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_AssemblageComponetV3]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AssemblageComponetV3(struct __SCProduction_GestionProductions *__instance, char *sfc, char *operation, char *NomAttribute, char *value, char *codecomposant, char *indicecomposant, char **EtatAssemblage, int *blnResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_recuperationdetailleBomfromOF]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_recuperationdetailleBomfromOF(struct __SCProduction_GestionProductions *__instance, char *strOrdreFab, char **plannedBomRef, char **indiceBomRef, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDetailsBOMwithOF]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDetailsBOMwithOF(struct __SCProduction_GestionProductions *__instance, char *strOrdreFab, char **plannedBomRef, char **indiceBomRef, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_PrintPlanCarton]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_PrintPlanCarton(struct __SCProduction_GestionProductions *__instance, char **TabSFC, int __TabSFCLength, char *CodeArticle, char *disignation, char *indice, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_AssembleTableauComposants]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AssembleTableauComposants(struct __SCProduction_GestionProductions *__instance, char *strSFC, char *operation, char *Ressource, char **tabAssemblages, int __tabAssemblagesLength1, int __tabAssemblagesLength2, int *blnResultat, char **EtatAssemblage, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDetailsOF]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDetailsOF(struct __SCProduction_GestionProductions *__instance, char *strOrdreFab, char **strItemRef, char **strItemRevision, char **strTypeOrdreFab, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_GenerationNSClient]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GenerationNSClient(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *Ressource, char *strFormatNSClient, char *indice, char **strNSClient, char **EtatAssemblage, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationInformationSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationInformationSFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char **strOrdreFab, char **strCodeProduit, char **strIndiceProduit, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationInformationSFC_HDD]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationInformationSFC_HDD(struct __SCProduction_GestionProductions *__instance, char *SFC, char **strCodeProduit, char **strIndiceProduit, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationInformationSFC_SYNCHRO]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationInformationSFC_SYNCHRO(struct __SCProduction_GestionProductions *__instance, char *SFC, char *operation, char **strOrdreFab, char **strCodeProduit, char **strIndiceProduit, char **strGamme, char **strGammeIndice, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationSFCdepuisComposantV2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationSFCdepuisComposantV2(struct __SCProduction_GestionProductions *__instance, char *SFC_ENF, char *inventoryId, char **SFCParent, char **strCodeRetour, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_updateProvisionningStatus]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_updateProvisionningStatus(struct __SCProduction_GestionProductions *__instance, char **sfcPfin, int __sfcPfinLength, char *mode, char **infoPfin, int __infoPfinLength1, int __infoPfinLength2, char **infoCie, int __infoCieLength1, int __infoCieLength2, int *bresult, char **statut, char **ficherName, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_CreationSFC_Transfertsite]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_CreationSFC_Transfertsite(struct __SCProduction_GestionProductions *__instance, char *resourceRef, char *itemRef, char *indiceRef, char *operationRef, char *indiceOperation, char *sfc, char **sfcRef, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProprietesSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProprietesSFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char ***TabValeur, int *__TabValeurLength1, int *__TabValeurLength2, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProprieteSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProprieteSFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char *NomPropriete, int *bResultat, char **ValeurPropriete, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_AjoutStockOuRecuperationEtatComposant]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_AjoutStockOuRecuperationEtatComposant(struct __SCProduction_GestionProductions *__instance, char *inventoryId, char *item, char *revision, int insertion, char **ResultCode, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_Signoff]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_Signoff(struct __SCProduction_GestionProductions *__instance, char *SFC, char *Ressource, char *Operation, char *Revision, char **strCodeProduit, char **StepId, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_CreationShopOrder]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_CreationShopOrder(struct __SCProduction_GestionProductions *__instance, char *strOrdreFab, char *strItem, char *indice, char **ShopOrder, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_changerOF]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_changerOF(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *OF, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_get_printing_datas]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_get_printing_datas(struct __SCProduction_GestionProductions *__instance, char *PRODUCT_CODE, char *PRODUCT_SERIAL, char *DATA, char *DATA_FORMAT, char **STATUS, char **DATA_VALUE, char **strMessageRetour, int *bresult, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementNonConformite]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementNonConformite(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *Ressource, char *strCodeErreur, char *strLibelleErreur, char *REF_DES, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationCle]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationCle(struct __SCProduction_GestionProductions *__instance, char *strNomTableCle, char *strNumSerie, char *strCodeProduit, char ***tabValeursCle, int *__tabValeursCleLength, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementTrace]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementTrace(struct __SCProduction_GestionProductions *__instance, char *numserie_sapme, char *trace, char *op_ration, int *blnErreurSurvenue, int *intErreurCode, char **strErreurMessage, char **strErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationParametreDetail]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationParametreDetail(struct __SCProduction_GestionProductions *__instance, char *nomParametreDetail, long long id_parametre, long long *id_parametreDetail, long long *index, char **valeur, char **observation, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationParametrage]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationParametrage(struct __SCProduction_GestionProductions *__instance, char *nomPoste, char *nomApplication, char *versionApplication, long long *id_parametrage, char **cheminApplicationPoste, char **observation, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_ActivationModeProto]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ActivationModeProto(struct __SCProduction_GestionProductions *__instance, char *nomPoste, char *nomApplication, char *versionApplication, int modeProto, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementParametre]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementParametre(struct __SCProduction_GestionProductions *__instance, long long id_parametrage, char *nom, long long index, char *valeur, char *observation, long long *id_parametre, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementParametreDetail]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementParametreDetail(struct __SCProduction_GestionProductions *__instance, long long id_parametre, char *nom, long long index, char *valeur, char *observation, long long *id_parametreDetail, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_ModificationParametre]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ModificationParametre(struct __SCProduction_GestionProductions *__instance, long long id_parametre, char *nom, long long index, char *valeur, char *observation, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_ModificationParametreDetail]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ModificationParametreDetail(struct __SCProduction_GestionProductions *__instance, long long id_parametreDetail, char *nom, long long index, char *valeur, char *observation, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationApplication]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationApplication(struct __SCProduction_GestionProductions *__instance, char *nomApplication, char *versionApplication, long long *id_application, char **cheminApplication, char **cheminSetup, int *actif, char **observation, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationLocalisations]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationLocalisations(struct __SCProduction_GestionProductions *__instance, char ***tabLocalisations, int *__tabLocalisationsLength1, int *__tabLocalisationsLength2, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationParametre]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationParametre(struct __SCProduction_GestionProductions *__instance, char *nomParametre, long long id_parametrage, long long *id_parametre, long long *index, char **valeur, char **observation, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_ModificationPosteVariable]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ModificationPosteVariable(struct __SCProduction_GestionProductions *__instance, char *strCodePoste, char *strNomVariable, char *strValeur, long long *lngId_Variable_Poste, int *blnErreurSurvenue, int *intErreurCode, char **strErreurMessage, char **strErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationParametres]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationParametres(struct __SCProduction_GestionProductions *__instance, long long id_parametrage, char ***tabParametres, int *__tabParametresLength1, int *__tabParametresLength2, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationParametresDetails]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationParametresDetails(struct __SCProduction_GestionProductions *__instance, long long id_parametre, char ***tabParametresDetails, int *__tabParametresDetailsLength1, int *__tabParametresDetailsLength2, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationTraductions]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationTraductions(struct __SCProduction_GestionProductions *__instance, char *nomApplication, char *versionApplication, long long id_localisation, char ***tabTraductions, int *__tabTraductionsLength1, int *__tabTraductionsLength2, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationTestPlan]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationTestPlan(struct __SCProduction_GestionProductions *__instance, char *resource, char *itemRef, char *indice, char ***testPlan, int *__testPlanLength, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationParametrageTestPlan]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationParametrageTestPlan(struct __SCProduction_GestionProductions *__instance, char *testPlanId, char *measurementDescription, char **description, struct __System_Collections_Generic_Dictionary_T2 **testPlanMeasurementList, struct __System_Collections_Generic_Dictionary_T2 **testPlanParamList, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationListeArticle]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationListeArticle(struct __SCProduction_GestionProductions *__instance, char *strGroupe, char **description, char ***itemGroupMembers, int *__itemGroupMembersLength, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationListeGammeReprise]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationListeGammeReprise(struct __SCProduction_GestionProductions *__instance, struct __System_Collections_Generic_List_T1 **router, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDonneesArticle]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDonneesArticle(struct __SCProduction_GestionProductions *__instance, char *Attribute, char *ProductCode, char *Indice, char ***CustomField, int *__CustomFieldLength1, int *__CustomFieldLength2, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_GetCustoStatus]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GetCustoStatus(struct __SCProduction_GestionProductions *__instance, char *strIPAdress, char **custoRequestDataArray, int __custoRequestDataArrayLength1, int __custoRequestDataArrayLength2, char ***custoStatusArray, int *__custoStatusArrayLength1, int *__custoStatusArrayLength2, int *bResult, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_GenerationSNcarton]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GenerationSNcarton(struct __SCProduction_GestionProductions *__instance, char *codeproduit, char *indice, char *UF, char *ligne, char *usine, char *Format, int *bresult, char **SNcarton, char **strmassage, void **__exception);"
+
+[SCProduction_GestionProductions_unloadSlotGroup]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_unloadSlotGroup(struct __SCProduction_GestionProductions *__instance, char *Resource, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_SetupSlotConfiguration]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_SetupSlotConfiguration(struct __SCProduction_GestionProductions *__instance, char *Resource, char *State, char *SlotConfigId, char *Revision, char ***SetupSlotConfiguration, int *__SetupSlotConfigurationLength1, int *__SetupSlotConfigurationLength2, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_Recuperation_Historique_NC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_Recuperation_Historique_NC(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char ***ncCodeRef, int *__ncCodeRefLength1, int *__ncCodeRefLength2, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_CHECK_OR_INSERT_SN_IN_PACKOUT_v2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_CHECK_OR_INSERT_SN_IN_PACKOUT_v2(struct __SCProduction_GestionProductions *__instance, char *SFC, char *ITEM, char *indice, char *Code_SSCC, char *ressorce, int *bresult, char **strmessage, void **__exception);"
+
+[SCProduction_GestionProductions_CHECK_OR_INSERT_SN_IN_PACKOUT]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_CHECK_OR_INSERT_SN_IN_PACKOUT(struct __SCProduction_GestionProductions *__instance, char *SFC, char *ITEM, char *indice, int *bresult, char **strmessage, void **__exception);"
+
+[SCProduction_GestionProductions_findSlotGroupByResourceAndState]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_findSlotGroupByResourceAndState(struct __SCProduction_GestionProductions *__instance, char *Resource, char *slotGroupState, char ***slotGroupConfiguration, int *__slotGroupConfigurationLength1, int *__slotGroupConfigurationLength2, char **slotGroupRef, char **resourceSetupState, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_getCurrentAndPendingComponentTimeLogRecords]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_getCurrentAndPendingComponentTimeLogRecords(struct __SCProduction_GestionProductions *__instance, char *Resource, char ***CurrentAndPendingComponent, int *__CurrentAndPendingComponentLength1, int *__CurrentAndPendingComponentLength2, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_GET_COMP_TIME_LOG_STAGING]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GET_COMP_TIME_LOG_STAGING(struct __SCProduction_GestionProductions *__instance, char *Resource, struct __System_Collections_Generic_List_T1 **tabinfo, int *bresult, char **strmassage, void **__exception);"
+
+[SCProduction_GestionProductions_ConfigurationBase]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ConfigurationBase(struct __SCProduction_GestionProductions *__instance, char *strServeur, int intPort, char *strBaseDeDonnees, char *strUtilisateur, char *strPoste, int blnDebug, int *blnErreurSurvenue, int *intErreurCode, char **strErreurMessage, char **strErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementNonConformiteV2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementNonConformiteV2(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *Ressource, char *strCodeErreur, char *strLibelleErreur, char *REF_DES, int *bResultat, char **operationout, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_ifopenNC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ifopenNC(struct __SCProduction_GestionProductions *__instance, char *SFC, int *bresult, char **strmessage, void **__exception);"
+
+[SCProduction_GestionProductions_changeResourceStatus]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_changeResourceStatus(struct __SCProduction_GestionProductions *__instance, char *ressource, char *status, int *blnResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_recuperationNC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_recuperationNC(struct __SCProduction_GestionProductions *__instance, char *sfc, char *operation, char *indice, char *ressource, char *code, char *libelle, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_HoldSfc]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_HoldSfc(struct __SCProduction_GestionProductions *__instance, char **sfc, int __sfcLength, char *comment, int *bresult, char **sMessage, void **__exception);"
+
+[SCProduction_GestionProductions_ReturnLastOperationWithSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ReturnLastOperationWithSFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char **operationOut, int *bresult, char **strmessage, void **__exception);"
+
+[SCProduction_GestionProductions_markSfcAsDone]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_markSfcAsDone(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *codeproduit, char *indice, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_FindSFCByCollectData]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_FindSFCByCollectData(struct __SCProduction_GestionProductions *__instance, char *value, char *dataField, char ***listSFCWithParam, int *__listSFCWithParamLength, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationListeCodeProduit]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationListeCodeProduit(struct __SCProduction_GestionProductions *__instance, char *ligne, char ***listCodeProduits, int *__listCodeProduitsLength, int *bresult, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationInfoLotMetrologie]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationInfoLotMetrologie(struct __SCProduction_GestionProductions *__instance, char *ligne, char *CodeProduits, char *indice, char **information, int *bresult, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationlisteNSlots]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationlisteNSlots(struct __SCProduction_GestionProductions *__instance, char *lots, char *variable, struct __System_Collections_Generic_Dictionary_T2 **information, int *bresult, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_Recuperation_status_sfc_inwork]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_Recuperation_status_sfc_inwork(struct __SCProduction_GestionProductions *__instance, char *SFC, char *operation, char *indiceOp, int *state, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationCodeSNclientLinky]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationCodeSNclientLinky(struct __SCProduction_GestionProductions *__instance, char *CODE_PRODUIT_METRO, char *INDICE_PRODUIT_METRO, int *bresult, char **VariableLot, char **strmassage, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationCodeSNclientLinky_V2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationCodeSNclientLinky_V2(struct __SCProduction_GestionProductions *__instance, char *CODE_PRODUIT_METRO, char *INDICE_PRODUIT_METRO, char *var, int *bresult, char **VariableLot, char **strmassage, void **__exception);"
+
+[SCProduction_GestionProductions_ConfigurationBase_nrj]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ConfigurationBase_nrj(struct __SCProduction_GestionProductions *__instance, char *strServeur, int intPort, char *strBaseDeDonnees, char *strUtilisateur, char *strPoste, int blnDebug, int *blnErreurSurvenue, int *intErreurCode, char **strErreurMessage, char **strErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_findResourcesByWorkCenter]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_findResourcesByWorkCenter(struct __SCProduction_GestionProductions *__instance, char *WorkCenter, int *blnResultat, struct __System_Collections_Generic_List_T1 **ressources, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_TchekOperation]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_TchekOperation(struct __SCProduction_GestionProductions *__instance, char *SFC, char *operation, char *indiceOp, int *state, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_ArchiveEnMasse]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ArchiveEnMasse(struct __SCProduction_GestionProductions *__instance, char **strNumSerie, int __strNumSerieLength, int bArchiving, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_ChangeProduction]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ChangeProduction(struct __SCProduction_GestionProductions *__instance, char **sfcList, int __sfcListLength, char *newItem, char *newItemRevision, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_PASS_EN_MASSE]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_PASS_EN_MASSE(struct __SCProduction_GestionProductions *__instance, char **Sfc, int __SfcLength, char *Ressource, char *Operation, char *indice, char *next_step, int *Statut, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationNCattachee]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationNCattachee(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char ***ncCodeRef, int *__ncCodeRefLength1, int *__ncCodeRefLength2, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationInformationSFC_Specifique]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationInformationSFC_Specifique(struct __SCProduction_GestionProductions *__instance, char *SFC, char **strCodeProduit, char **strIndiceProduit, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_Recuperation_DetailsSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_Recuperation_DetailsSFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char **strOrdreFab, char **strCodeProduit, char **strIndiceProduit, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationOFdepuisArticle]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationOFdepuisArticle(struct __SCProduction_GestionProductions *__instance, char *itemMask, char *itemRevisionMask, struct __System_Collections_Hashtable **shopOrder_status, int *blnResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_PrintDocument]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_PrintDocument(struct __SCProduction_GestionProductions *__instance, char *sfcRef, char *documentName, int printQty, char *printer, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_PreparationEtatConfigRessource]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_PreparationEtatConfigRessource(struct __SCProduction_GestionProductions *__instance, char *ShopOrderBO, char *description, char *resourceRef, int *blnResultat, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_GET_CUSTO]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GET_CUSTO(struct __SCProduction_GestionProductions *__instance, char *CIPHERING_KEY_NAME, char *PRODUCT_CODE, char *PRODUCT_SERIAL, char *SESSION_ID, char **CUSTO_PAYLOAD, char **STATUS, char **strMessageRetour, int *bresult, void **__exception);"
+
+[SCProduction_GestionProductions_Pass_assemblage]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_Pass_assemblage(struct __SCProduction_GestionProductions *__instance, char *SFC, char *operation, char *ressource, char *OF, int *bresult, char **SFCPARENT, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_INSERT_NS_Lot_Metro_v2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_INSERT_NS_Lot_Metro_v2(struct __SCProduction_GestionProductions *__instance, char *SFC, char *ressource, int *bresult, char **snlot, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_ControleLotMetrologieDisponible]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ControleLotMetrologieDisponible(struct __SCProduction_GestionProductions *__instance, char *SFC, char *ressource, int *bresult, char **snlot, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_COMMIT_CUSTO]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_COMMIT_CUSTO(struct __SCProduction_GestionProductions *__instance, char *PRODUCT_CODE, char *PRODUCT_SERIAL, char *SESSION_ID, char *FEEDBACK_PAYLOAD, char *CIPHERING_KEY_NAME, char **STATUS, char **strMessageRetour, int *bresult, void **__exception);"
+
+[SCProduction_GestionProductions_RecupererPremierNSClient]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecupererPremierNSClient(struct __SCProduction_GestionProductions *__instance, char *strCodeComposant, char *indice, char **firstSfc, char **resultStatus, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_DeconnexionBase]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_DeconnexionBase(struct __SCProduction_GestionProductions *__instance, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, void **__exception);"
+
+[SCProduction_GestionProductions_InitialisationParametresGestMES]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_InitialisationParametresGestMES(struct __SCProduction_GestionProductions *__instance, char *sCheminFichier, int *bRetour, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationParametrageMesuresMES]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationParametrageMesuresMES(struct __SCProduction_GestionProductions *__instance, char *dcGroup, char *revision, char ***dcGroupList, int *__dcGroupListLength1, int *__dcGroupListLength2, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationLigneProductionParPoste]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationLigneProductionParPoste(struct __SCProduction_GestionProductions *__instance, char *sNomPoste, char **sLibelleLigne, char **sDescriptionLigne, int *iNumeroLigne, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProduitsParPoste]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProduitsParPoste(struct __SCProduction_GestionProductions *__instance, char *sNomPoste, char ***stabProduits, int *__stabProduitsLength1, int *__stabProduitsLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProduitInformations]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProduitInformations(struct __SCProduction_GestionProductions *__instance, char *sCodeProduit, char *sIndiceProduit, char **sCodeOperateur, char **sCodeSousFamille, char **sCodeFamille, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProduitsParents]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProduitsParents(struct __SCProduction_GestionProductions *__instance, char *sCodeProduitEnfant, char *sIndiceProduitEnfant, char ***stabProduitsParents, int *__stabProduitsParentsLength1, int *__stabProduitsParentsLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProduitsEnfants]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProduitsEnfants(struct __SCProduction_GestionProductions *__instance, char *sCodeProduitParent, char *sIndiceProduitParent, char ***stabProduitsEnfants, int *__stabProduitsEnfantsLength1, int *__stabProduitsEnfantsLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationTypeTestsParProduitParPoste]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationTypeTestsParProduitParPoste(struct __SCProduction_GestionProductions *__instance, char *sCodeProduit, char *sIndiceProduit, char *sNomPoste, char ***stabTypeTests, int *__stabTypeTestsLength1, int *__stabTypeTestsLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProprietes]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProprietes(struct __SCProduction_GestionProductions *__instance, char *sCodeProduit, char *sIndiceProduit, char ***stabProprietes, int *__stabProprietesLength1, int *__stabProprietesLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_Recuperation_temps_Enattente]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_Recuperation_temps_Enattente(struct __SCProduction_GestionProductions *__instance, char *SFC, char *operation, double *elepsedQueueTime, int *bresult, char **strmessage, void **__exception);"
+
+[SCProduction_GestionProductions_ImpressionPKT_zpl]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ImpressionPKT_zpl(struct __SCProduction_GestionProductions *__instance, char *numserie, char *etiquetteCode, char *hostName, int *bResult, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationProprietesParPoste]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationProprietesParPoste(struct __SCProduction_GestionProductions *__instance, char *sCodeProduit, char *sIndiceProduit, char *sNomPoste, char ***stabProprietes, int *__stabProprietesLength1, int *__stabProprietesLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationTypePosteVariable]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationTypePosteVariable(struct __SCProduction_GestionProductions *__instance, char *sCodeTypePoste, char *sNomVariable, char **sValeur, long long *lId_Variable_TypePoste, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationPosteVariables]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationPosteVariables(struct __SCProduction_GestionProductions *__instance, char *sNomPoste, char ***stabVariables, int *__stabVariablesLength1, int *__stabVariablesLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationPosteVariable]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationPosteVariable(struct __SCProduction_GestionProductions *__instance, char *sNomPoste, char *sNomVariable, char **sValeur, long long *lId_Variable_Poste, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementLog]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementLog(struct __SCProduction_GestionProductions *__instance, long long lId_NumSerie, char *sLibelle, char *sDateDebut, char *sDateFin, long long *lId_Log, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDateHeure]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDateHeure(struct __SCProduction_GestionProductions *__instance, short *shYear, short *shYear2Digits, short *shMonth, short *shWeek, short *shDayOfWeek, short *shDayOfMonth, short *shDayOfYear, short *shHour, short *shMinute, short *shSecond, short *shMillisecond, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_GenerationNumSerieClient_tcm]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_GenerationNumSerieClient_tcm(struct __SCProduction_GestionProductions *__instance, char *sFormatClient, char **stabParametres, int __stabParametresLength, char **sNumSerieClient, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationClesParProduit]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationClesParProduit(struct __SCProduction_GestionProductions *__instance, char *sCodeProduit, char *sIndiceProduit, char ***stabCles, int *__stabClesLength1, int *__stabClesLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationCle_sapme]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationCle_sapme(struct __SCProduction_GestionProductions *__instance, char *sNomTableCle, char *sNumSerie, char *sCodeProduit, char *sIndiceProduit, char **stabParametres, int __stabParametresLength, char ***stabValeursCle, int *__stabValeursCleLength, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationCles_sapme]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationCles_sapme(struct __SCProduction_GestionProductions *__instance, char *sNomTableCle, char *sNumSerie, char *sCodeProduit, char *sIndiceProduit, char **stabParametres, int __stabParametresLength, char ***stabValeursCles, int *__stabValeursClesLength1, int *__stabValeursClesLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_LiberationCle_sapme]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_LiberationCle_sapme(struct __SCProduction_GestionProductions *__instance, char *sNomTableCle, char *sNumSerie, char *sCodeProduit, char *sIndiceProduit, long long *lId_Cle, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_LiberationCles_sapme]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_LiberationCles_sapme(struct __SCProduction_GestionProductions *__instance, char *sNomTableCle, char *sNumSerie, char *sCodeProduit, char *sIndiceProduit, long long **stabId_Cle, int *__stabId_CleLength1, int *__stabId_CleLength2, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_NettoyageCle_sapme]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_NettoyageCle_sapme(struct __SCProduction_GestionProductions *__instance, char *sNomTableCle, char *sNumSerie, char *sCodeProduit, char *sIndiceProduit, long long *lId_Cle, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EcritureCle_sapme]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EcritureCle_sapme(struct __SCProduction_GestionProductions *__instance, char *sNomTableCle, char *sNumSerie, char *sCodeProduit, char *sIndiceProduit, char **stabParametres, int __stabParametresLength, char ***stabValeursCle, int *__stabValeursCleLength, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_LectureCle_sapme]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_LectureCle_sapme(struct __SCProduction_GestionProductions *__instance, char *sNomTableCle, char *sNumSerie, char *sCodeProduit, char *sIndiceProduit, char **stabParametres, int __stabParametresLength, char ***stabValeursCle, int *__stabValeursCleLength, int *bErreurSurvenue, int *iErreurCode, char **sErreurMessage, char **sErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_DebutOperationAvecGenerationSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_DebutOperationAvecGenerationSFC(struct __SCProduction_GestionProductions *__instance, char *strCodeProduit, char *operation, char *Ressource, char *indice, char **strNumeroSerie, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_FinOperation]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_FinOperation(struct __SCProduction_GestionProductions *__instance, char *sNumSerie, char *Ressource, char *Operation, int *bResult, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_FinOperation_V2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_FinOperation_V2(struct __SCProduction_GestionProductions *__instance, char *sNumSerie, char *Ressource, char *Operation, char *Revision, int *bResult, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_FinOperationEnMasse]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_FinOperationEnMasse(struct __SCProduction_GestionProductions *__instance, char **sNumSerie, int __sNumSerieLength, char *Ressource, char *Operation, char *indice, int *bResult, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_DebutOperation]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_DebutOperation(struct __SCProduction_GestionProductions *__instance, char *sNumSerie, char *Ressource, char *Operation, int *bResult, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_DebutOperation_V2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_DebutOperation_V2(struct __SCProduction_GestionProductions *__instance, char *sNumSerie, char *Ressource, char *Operation, char *Revision, int *bResult, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_DebutOperationEnMasse]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_DebutOperationEnMasse(struct __SCProduction_GestionProductions *__instance, char **sNumSerie, int __sNumSerieLength, char *Ressource, char *Operation, char *indice, int *bResult, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationInformationRessource]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationInformationRessource(struct __SCProduction_GestionProductions *__instance, char *Ressource, char **shopOrder, char **orderType, char **item, char **revision, char **router, char **indice, char **bom, char **indicebom, char **workCenter, int *Result, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDetailsNC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDetailsNC(struct __SCProduction_GestionProductions *__instance, char *ncGroupName, char ***NCCode, int *__NCCodeLength1, int *__NCCodeLength2, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationLastNC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationLastNC(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char **ncCodeRef, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationStatusSfc]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationStatusSfc(struct __SCProduction_GestionProductions *__instance, char **strNumSerie, int __strNumSerieLength, char ***StatusSfc, int *__StatusSfcLength1, int *__StatusSfcLength2, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDetailsOFV2]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDetailsOFV2(struct __SCProduction_GestionProductions *__instance, char *strOrdreFab, char **strItemRef, char **strItemRevision, char **strTypeOrdreFab, int *blnResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementNonConformiteSansRoutage]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementNonConformiteSansRoutage(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *Ressource, char *strCodeErreur, char *strLibelleErreur, char *refdes, char **IncidentDateTime1, double *Seque, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementTestMesure]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementTestMesure(struct __SCProduction_GestionProductions *__instance, char *sNumSerie, char *operation, char *ressource, char *OF, char *sCodeTypeTest, char *sCodeStatutTest, double dDuree, char *sDescription, char *sValeur, char *sToleranceMinimum, char *sToleranceMaximum, char *sUniteMesusre, char *sgroupe, char *sComment, int *bErreurSurvenue, char **sErreurMessage, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementTestMesureParCodeProduit]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementTestMesureParCodeProduit(struct __SCProduction_GestionProductions *__instance, char *sNumSerie, char *operation, char *ressource, char *OF, char *sCodeTypeTest, char *sCodeStatutTest, double dDuree, char *sDescription, char *sValeur, char *sToleranceMinimum, char *sToleranceMaximum, char *sUniteMesusre, char *sgroupe, char *sComment, char *strProductCode, char *strRevisionProductCode, char *TestPlan, int *bErreurSurvenue, char **sErreurMessage, void **__exception);"
+
+[SCProduction_GestionProductions_insertion_chip_id]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_insertion_chip_id(struct __SCProduction_GestionProductions *__instance, char *SN_CIE, char *Chip_id, char *code_produit_CIE, char *indice_CIE, char **statuts, char ***tabValeurschip, int *__tabValeurschipLength, int *blnErreurSurvenue, int *intErreurCode, char **strErreurMessage, char **strErreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_ReplenishComponent]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_ReplenishComponent(struct __SCProduction_GestionProductions *__instance, char *Resource, char *SlotConfigId, char *Revision, char *Slot, char *Item, char **AssyDataValues, int __AssyDataValuesLength1, int __AssyDataValuesLength2, char ***ReplenishComponentResponse, int *__ReplenishComponentResponseLength1, int *__ReplenishComponentResponseLength2, int *blnResultat, char **strMessage, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationPropriete]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationPropriete(struct __SCProduction_GestionProductions *__instance, char *codeProduit, char *indiceProduit, char *nomVariable, char **valeur, long long *id_propriete, int *erreurSurvenue, int *erreurCode, char **erreurMessage, char **erreurRequete, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementTableauTestsMesuresDepuisValor]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementTableauTestsMesuresDepuisValor(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *ressource, char *ligne, char *listeDeMachine, char *VariableDonneeCollecte, char *chaineDeconnexionSQL, char *chaineDeConnexionOracle, char *chaineDeConnexionPostgres, char *RefCodeProduit, char *indice, char *OrdreFabr, struct __System_Collections_Generic_List_T1 **tabsansNum_Lot, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_INSERT_PROPERITE_IN_PACKOUT]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_INSERT_PROPERITE_IN_PACKOUT(struct __SCProduction_GestionProductions *__instance, char *SFC, char *variable, char *value, int *bresult, char **strmessage, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementTableauTestsMesuresDepuisValor_1]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementTableauTestsMesuresDepuisValor_1(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *ressource, char *ligne, char *listeDeMachine, char *VariableDonneeCollecte, char *chaineDeconnexionSQL, char *chaineDeConnexionOracle, struct __System_Collections_Generic_List_T1 **tabsansNum_Lot, int *bResult, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationDonneesCollecteesSFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationDonneesCollecteesSFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char ***TabValeur, int *__TabValeurLength1, int *__TabValeurLength2, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_Recuperation_Historique_Mouvement_SFC]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_Recuperation_Historique_Mouvement_SFC(struct __SCProduction_GestionProductions *__instance, char *SFC, char ***tabValue, int *__tabValueLength1, int *__tabValueLength2, int *bResultat, char **strMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_RecuperationCodeCloture]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_RecuperationCodeCloture(struct __SCProduction_GestionProductions *__instance, char *CodeNC, char ***secondaryNcCodes, int *__secondaryNcCodesLength1, int *__secondaryNcCodesLength2, int *Result, char **sMessageRetour, void **__exception);"
+
+[SCProduction_GestionProductions_EnregistrementNonConformiteCloture]
+Class="Function"
+Prototype="int SCProduction_GestionProductions_EnregistrementNonConformiteCloture(struct __SCProduction_GestionProductions *__instance, char *strNumSerie, char *operation, char *indiceOp, char *Ressource, char *strCodeErreur, char *strLibelleErreur, char *datetime, double sequence, int *bResultat, char **strMessageRetour, void **__exception);"
+

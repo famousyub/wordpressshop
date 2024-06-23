@@ -1,0 +1,54 @@
+-nologo
+-out:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\BancBWC.exe
+-arch:x86
+-timestamp
+-loadextmod
+-res:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\resources.res
+-entry:_CVIWinMainStartupCode@0
+-base:0x400000
+-linked:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\linkersummary.txt
+-dlldeps:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\dlldependencies.txt
+-licensing:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\linkerlicensing.txt
+-browsedeps:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\moduledependencies.txt
+-stackreserve:10097152
+-stackcommit:4096
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\dllTracaCom.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\fil2lo.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Fonctions.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Globale.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\IHM.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Main.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Mesures.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Multilangue.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\replacingall.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\SCProduction.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Telnet.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Thread.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\TracaSCProduction.obj
+-in:c:\Banc_BWC_RGW\cvibuild.Banc_BWC_RGW\Release\Variables.obj
+-more:c:\program files (x86)\national instruments\cvi2013\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2013\bin\msvc\cvi.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2013\bin\msvc\analysis.lib
+-more:c:\Banc_BWC_RGW\Src\Lib\Bd32\BD32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cviddc.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvitdms.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\toolslib\toolbox\msvc\inifile.obj
+-more:c:\Banc_BWC_RGW\Src\Lib\IRTrans\IRTransDLL\IRTransDLL.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\omp.lib
+-more:c:\Banc_BWC_RGW\Src\Lib\Rs232\RS232.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\toolslib\toolbox\msvc\toolbox.obj
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\user32.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\uuid.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\Version.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\winmm.lib

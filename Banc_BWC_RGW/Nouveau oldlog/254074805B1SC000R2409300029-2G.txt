@@ -1,0 +1,3 @@
+nom  :  mesure : -70.00 unite : dBm val1 : -73 val2 : -67 desc : RSSI_RX1
+nom  :  mesure : -70.00 unite : dBm val1 : -73 val2 : -67 desc : RSSI_RX2
+nom  :  mesure : -71.00 unite : dBm val1 : -73 val2 : -67 desc : RSSI_RX3

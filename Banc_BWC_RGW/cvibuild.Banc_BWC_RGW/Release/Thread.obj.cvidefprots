@@ -1,0 +1,4 @@
+[ThreadSlot]
+Class="Function"
+Prototype="int ThreadSlot(void *data);"
+

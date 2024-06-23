@@ -1,0 +1,8 @@
+[replaceWord]
+Class="Function"
+Prototype="char *replaceWord(const char *s, const char *oldW, const char *newW);"
+
+[processId]
+Class="Function"
+Prototype="int processId(int x);"
+

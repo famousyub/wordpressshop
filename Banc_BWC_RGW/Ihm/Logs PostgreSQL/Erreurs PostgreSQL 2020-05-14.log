@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------------------
+Date      : 14/05/2020 15:02:41
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -2147467259
+Message   : A timeout has occured. If you were establishing a connection, increase Timeout value in ConnectionString. If you were executing a command, increate the CommandTimeout value in ConnectionString or in your NpgsqlCommand object.
+Requete   : 
+
+---------------------------------------------------------------------------------------------------------------
+Date      : 14/05/2020 15:03:01
+Poste     : EZR-LAP558145
+Matricule : G558145
+Code      : -1
+Message   : Impossible de lire les données de la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant.
+Requete   : ConfigurationBase
+
